@@ -6,8 +6,11 @@ Nuestra  solución a este problema consiste en diseñar una pagina web dirigida 
 En nuestra pagina web, los usuarios podrán encontrar: 
 
 ✔ Consejos de estudio: sugerencias técnicas probadas para mejorar la eficiencia y la efectividad del estudio. 
+
 ✔ Metodos de aprendizaje: distintas estrategias de aprendizaje que a adaptan a diferentes estilos.  
+
 ✔ Recursos de paginas: Enlaces a paginas web que ayuden a resumir y buscar resumenes de diferentes materias y facultades. 
+
 ✔ Tecnicas de gestión del tiempo: como administrar el tiempo de manera eficiente. etc..
 
 Nuestra pagina web esta diseñada para ser una herramienta que apoye a los jóvenes en uno de los momentos mas importantes de su vida academica. Con estos recursos y consejos, esperamos hacer que el salto de la secundaria a la facultad sea mas manejable y exitoso para todos los estudiantes.
