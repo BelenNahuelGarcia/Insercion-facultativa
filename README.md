@@ -1,4 +1,4 @@
-# De-la-secundaria-a-la-facultad 📚
+# Insercion-facultativa. 📚
 Basado en los Objetivos de Desarrollo sostenible identificamos como problemática en nuestra comunidad el traspaso de la secundaria a la facultad. Lo elegimos porquee nuestro publico objetivo serán personas entre 16 y 23 años. Para contribuir a mejorar ese problema, ideamos la siguiente solucion:
 
 Nuestra  solución a este problema consiste en diseñar una pagina web dirigida a jóvenes, con el objetivo de facilitar la transición de la secundaria a la facultad. Entendemos que este cambio puede ser abrumador, por lo que nuestra plataforma ofrece una variedad de recursos y consejos prácticos para ayudar a los estudiantes a adaptarse y tener éxito en esta nueva etapa.
