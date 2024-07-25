@@ -28,6 +28,7 @@ div {
   h1 {
     display:flex;
     justify-content:center;
+    background-color:rgb(83, 171, 196);
   }
 
   h3 {
