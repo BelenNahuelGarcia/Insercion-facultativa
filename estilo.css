@@ -1,1 +1,38 @@
 /*Holaa! voy creando un archivo CSS para tenerlo en el repo*/
+
+.tarjetitas {
+    display:flex;
+    flex-direction:row;
+    width: 900px;
+    border: 5px solid rgb(9, 8, 56);
+    padding: 50px;
+    margin: 10px;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    font-family: Helvetica;
+    color:rgb(20, 27, 92);
+    }
+.fondoazul {
+    background-color:rgb(35, 146, 180);
+}
+
+div {
+    display:flex;
+    justify-content:center;
+}
+
+  h1 {
+    display:flex;
+    justify-content:center;
+  }
+
+  h3 {
+    display:flex;
+    justify-content:center;
+  }
+
+ 
