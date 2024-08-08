@@ -558,29 +558,3 @@ text-align: left;
     font-style: normal;
 }
 
-ul {
-  list-style-type: none;
-  margin: 15px;
-  padding: 10px;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color:  rgb(219, 153, 153);
-}
-
-#barra {
-  background-color: rgb(224, 172, 172);
-}

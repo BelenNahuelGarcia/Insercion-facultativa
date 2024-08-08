@@ -1,0 +1,36 @@
+/*Holaa! voy creando un archivo CSS para tenerlo en el repo*/
+
+body{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  font-family: Helvetica;
+  color:rgb(20, 27, 92);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:  rgb(219, 153, 153);
+  }
+
+  #barra {
+    background-color: rgb(224, 172, 172);
+  }
