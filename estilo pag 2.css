@@ -215,331 +215,7 @@ p {
 }
 /*fin*/
 
-                                                                  /*seccion comunidad*/
-
-.headerpag3 {
-  color: rgb(0, 0, 0);
-  text-align: left;
-  padding: 20px;
-   font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal; 
-}
-
-.headerpag3 h1 {
-   color: #000000;
-}
-
-.icon {
-  font-size: 60px; /* Ajusta el tamaño según tus necesidades */
-  vertical-align: middle; /* Alinea el icono verticalmente con el texto despues seguimos editsando  */
-}
-
-.cards {
-  display: flex;
-  justify-content: space-around;
-  cursor: pointer;
-}
-
-.card3A {
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
-  border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Para que la imagen no sobresalga */
-  position: relative; /* Para posicionar el contenido */
-  width: 200px; /* Ajusta el ancho según tus necesidades */
-  transition: transform 0.3s ease-in-out;
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.card3A img {
-  width: 100%;
-  height: 150px; /* Ajusta la altura según tu imagen */
-  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
-}
-
-.card-content3A button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.card-content3A a {
-  text-decoration: none;
-  color: #F16BAE;
-}
-
-.card3B {
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Para que la imagen no sobresalga */
-  position: relative; /* Para posicionar el contenido */
-  width: 200px; /* Ajusta el ancho según tus necesidades */
-}
-
-.card3B img {
-  width: 100%;
-  height: 150px; /* Ajusta la altura según tu imagen */
-  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
-}
-
-.card-content3B button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
-  text-align: center;
-}
-
-.card-content3B a {
-  text-decoration: none;
-  color: #004AAD;
-}
-
-.card3C {
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Para que la imagen no sobresalga */
-  position: relative; /* Para posicionar el contenido */
-  width: 200px; /* Ajusta el ancho según tus necesidades */
-}
-
-.card3C img {
-  width: 100%;
-  height: 150px; /* Ajusta la altura según tu imagen */
-  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
-}
-
-.card-content3C button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
-  text-align: center;
-}
-
-.card-content3C a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.card3D {
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Para que la imagen no sobresalga */
-  position: relative; /* Para posicionar el contenido */
-  width: 200px; /* Ajusta el ancho según tus necesidades */
-}
-
-.card3D img {
-  width: 100%;
-  height: 150px; /* Ajusta la altura según tu imagen */
-  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
-}
-
-.card-content3D button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
-  text-align: center;
-}
-
-.card-content3D a {
-  text-decoration: none;
-  color: #585C86;
-}
-
-                               /*Seccion Calendario*/
-
-
- .title3A {
-    font-family: "Calistoga", serif;
-    font-weight: 400;
-    font-style: normal;
-  
-  color: #000000; }
-
-.calendar {
-  background: #c983da;
-  width: 80%;
-  max-width: 600px;
-  margin: 1em auto;
-  padding: .5em 0;}
-  .calendar__info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0 2em;
-    font-size: 1.2em;
-    text-transform: uppercase; }
-  .calendar__prev, .calendar__next {
-    color: #C7F464;
-    cursor: pointer;
-    font-size: 1.3em; }
-  .calendar__prev {
-    margin-right: auto; }
-  .calendar__next {
-    margin-left: auto; }
-  .calendar__week, .calendar__dates {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 10px; }
-  .calendar__month, .calendar__year {
-    padding: .5em 1em; }
-  .calendar__item {
-    text-align: center;
-    line-height: 2; }
-  .calendar__today {
-    background: lightcoral;
-    color: white;
-    width: 50%;
-    border-radius: 50%;
-    margin: auto; }
-  .calendar__last-days { 
-    opacity: .3; }
-    .calendar__dates {
-      align-items: center;
-    }
-
-                                /*Seccion Noticias*/
-.title3B {
-  color: #000000;
-    font-family: "Calistoga", serif;
-    font-weight: 400;
-    font-style: normal;
-
-  
-}
-
-.noti1 h3 {
-  color: #191616;
-  text-align: left;
-}
-
-.noti2 h3 {
-  color: #191616;
-  text-align: left;
-}
-
-.parrafo1 {
-color: gray;
-text-align: left;
-}
-
-.parrafo2 {
-  color: gray;
-  text-align: left;
-}
-
-.not1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.textonot1 {
-  flex: 1;
-}
-
-.imagennot1 {
-  width: 30%;
-}
-
-.not2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.textonot2 {
-  flex: 1;
-}
-
-.imagennot2 {
-  width: 30%;
-}
-
-.botonmas button a{
-  color: #000000;
-  align-items: center;
-  text-decoration: none;
-}
-
-.publicar-experiencia {
-  background-color: #ffffff; /* Ajusta el color según tu diseño */
-  color: white;
-  text-align: center;
-  padding: 20px;
-    font-family: "Calistoga", serif;
-    font-weight: 400;
-    font-style: normal;
-    
-}
-
-.boton-instagram {
-  display: inline-block;
-  background-color: #7289DA; /* Color del botón Discord */
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  align-items: center;
-}
-
-.boton-instagram img {
-  width: 50px; /* Ajusta el tamaño del icono */
-  margin-right: 5px;
-}
-
-
-.boton-instagram:hover {
-  background-color: #6441A5; /* Cambia el color al pasar el mouse */
-}
-
-.boton-classrom {
-  display: inline-block;
-  background-color: #7289DA; /* Color del botón Discord */
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.boton-classrom img {
-  width: 50px; /* Ajusta el tamaño del icono */
-  margin-right: 5px;
-}
-
-.publicar-experiencia {
-  /* ... */
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.boton-classrom:hover {
-  background-color: #6441A5; /* Cambia el color al pasar el mouse */
-}
-
+                                                        
 .calistoga-regular{
   font-family: "Calistoga", serif;
   font-weight: 400;
@@ -584,3 +260,179 @@ li a:hover {
 #barra {
   background-color: rgb(224, 172, 172);
 }
+
+    /*animacion pagina 2*/
+    .parrafo-introductorio h2 {
+      font-weight: 400;
+      font-family: "Playwrite BE WAL", cursive;
+      font-optical-sizing: auto;
+      font-style: normal;
+      color: aliceblue;
+    }
+    
+    .card2A {
+      background-color: #F9AFAF;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+      align-items: center;
+    }
+    
+    .card2A:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .card2A img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+    
+    .card2A h2 {
+      margin: 10px 0;
+      color: #191616;
+      text-align: justify;
+    }
+    .card2A p {
+      margin-bottom: 20px;
+      color: rgba(39, 46, 52, 0.845);
+      align-items: center;
+    }
+    
+    .button {
+      background-color: #F9AFAF;
+      color: #F9AFAF;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    
+    /*tarjjeta 2*/
+    .card2B {
+      background-color: #667ABE;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+      align-items: center;
+    }
+    
+    .card2B:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .card2B img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+    
+    .card2B h2 {
+      margin: 10px 0;
+      text-align: justify;
+    }
+    .card2B p {
+      margin-bottom: 10px;
+      color: rgba(255, 255, 255, 0.658);
+      align-items: center;
+    }
+    
+    .button {
+      background-color: #667ABE;
+      color: #191616;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    /*tarjeta 3*/
+    .card2C {
+      background-color: #ECE4DB;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+      align-items: center;
+    }
+    
+    .card2C:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .card2C img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+    
+    .card2C h2 {
+      margin: 10px 0;
+      color: #CD4D42;
+      text-align: justify;
+    }
+    
+    .card2C p {
+      margin-bottom: 10px;
+      color: #ba423791;
+      align-items: center;
+    }
+    
+    .button {
+      background-color: #ECE4DB;
+      color: #191616;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    
+    /*tarjeta 4*/
+    .card2D {
+      background-color: #1F244A;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+      align-items: center;
+    }
+    
+    .card2D:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .card2D img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+    
+    .card2D h2 {
+      margin: 10px 0;
+      color: #F2E982;
+      text-align: justify;
+    }
+    .card2D p {
+      margin-bottom: 10px;
+      color: #ffea09ee;
+      align-items: center;
+    }
+    
+    .button {
+      background-color: #ffffff9b;
+      color: #191616;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    /*fin*/
