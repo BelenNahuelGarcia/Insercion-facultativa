@@ -46,7 +46,7 @@ p {
   font-family: "Playwrite BE WAL", cursive;
   font-optical-sizing: auto;
   font-style: normal;
-  color: aliceblue;
+  color: black;
 }
 
 .card2A {
@@ -267,7 +267,7 @@ li a:hover {
       font-family: "Playwrite BE WAL", cursive;
       font-optical-sizing: auto;
       font-style: normal;
-      color: aliceblue;
+      color: #667abe;
     }
     
     .card2A {

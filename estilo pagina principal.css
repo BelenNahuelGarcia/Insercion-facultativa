@@ -3,12 +3,15 @@
 body {
   display:flex;
   justify-content:center;
-  flex-direction:column;}
+  flex-direction:column;
+  font-style: normal;}
 
   .fondogeneral {
     font-family: "Margarine", sans-serif;
   font-weight: 400;
   font-style: normal; 
+  background-color:#F9AFAF;
+
 }
 
 
@@ -19,10 +22,7 @@ section tarjetasgeneral {
 }
 
 .titulogeneral1 {
-  color:rgb(224, 150, 191);
-  font-family: "Margarine", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  color:rgb(255, 255, 255);
 }
 
 h1 {
@@ -31,12 +31,17 @@ h1 {
 }
 
 .introbjetivo p{
-  color: rgb(196, 196, 196);
+  color: rgb(0, 0, 0);
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
  }
 
 p {
-  color: rgb(180, 180, 180);
+  color: rgb(0, 0, 0);
 }
+
 
 .tarjetitas {
     display:flex;

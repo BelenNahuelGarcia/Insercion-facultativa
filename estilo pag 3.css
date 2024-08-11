@@ -42,7 +42,6 @@
    .headerpag3 {
     color: rgb(0, 0, 0);
     text-align: left;
-    padding: 20px;
      font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal; 
@@ -307,6 +306,10 @@
     text-decoration: none;
   }
   
+  section #experienciasC {
+    align-items: center;
+    justify-content: center;
+  }
   .publicar-experiencia {
     background-color: #ffffff; /* Ajusta el color según tu diseño */
     color: white;
