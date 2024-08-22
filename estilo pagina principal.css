@@ -1,4 +1,4 @@
-/*Holaa! voy creando un archivo CSS para tenerlo en el repo*/
+/*Archivo CSS de la página principal*/
 
 body {
   display:flex;
@@ -21,6 +21,8 @@ section tarjetasgeneral {
   cursor: pointer;
 }
 
+/*Para el título "Inserción facultativa"*/
+
 .titulogeneral1 {
   color:#F9AFAF;
 }
@@ -29,6 +31,8 @@ h1 {
   display:flex;
   justify-content:center;
 }
+
+/*Para el texto sobre el objetivo de la página*/
 
 .introbjetivo p{
   color: rgb(0, 0, 0);
@@ -270,11 +274,22 @@ body {
   background-color: #da6f2b;
 }
 
-.imagenfacu img{
-  align-items: center;
-  height: 350px;
-  justify-content: center;
-  display: flexbox;
+#imagenfacu img {
+  display: block;
+  margin: auto;
+  height:350px;
+  width:700px;
+}
+
+#contenido {
+  border: 2px #000 solid;
+  width: 55%;
+  margin-bottom: 20px;
+  background-color: #ffffff solid;
+  height: 1400px;
+  padding:25px;
+  padding-top:20px;
+
 }
 
 
