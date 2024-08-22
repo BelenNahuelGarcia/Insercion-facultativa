@@ -10,10 +10,9 @@ body {
     font-family: "Margarine", sans-serif;
   font-weight: 400;
   font-style: normal; 
-  background-color:#ffffff;
+  background-color:rgb(255, 255, 255);
 
 }
-
 
 section tarjetasgeneral {
   display: flex;
@@ -205,6 +204,7 @@ body {
   margin: 1rem;
   position: relative;
   overflow: hidden;
+  height:450px;
 }
 
 .slides-container {
@@ -283,13 +283,19 @@ body {
 
 #contenido {
   border: 2px #000 solid;
-  width: 55%;
+  width: 60%;
   margin-bottom: 20px;
   background-color: #ffffff solid;
-  height: 1400px;
-  padding:25px;
+  height: 1250px;
+  padding:20px;
   padding-top:20px;
 
+}
+
+.centrado {
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
 }
 
 
