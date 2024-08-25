@@ -5,6 +5,7 @@
     flex-direction:column;
     font-family: Helvetica;
     color:rgb(20, 27, 92);
+    background-image: url("imagenes3/fondogeneral.jpg");
     }
   
     .fondogeneral {
@@ -34,6 +35,7 @@
       margin: 10px;
       
   }
+  
   
   .tarjetitas a {
     text-decoration: none;
@@ -73,6 +75,12 @@
     transform: translateY(-5px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   }
+
+  .card3A:hover{
+    transform: translateY(-10px); /* Mover la tarjeta 10px hacia arriba */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra */
+
+  }
   
   .card3A img {
     width: 100%;
@@ -104,6 +112,13 @@
     overflow: hidden; /* Para que la imagen no sobresalga */
     position: relative; /* Para posicionar el contenido */
     width: 200px; /* Ajusta el ancho según tus necesidades */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .card3B:hover{
+    transform: translateY(-10px); /* Mover la tarjeta 10px hacia arriba */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra */
+
   }
   
   .card3B img {
@@ -134,6 +149,13 @@
     overflow: hidden; /* Para que la imagen no sobresalga */
     position: relative; /* Para posicionar el contenido */
     width: 200px; /* Ajusta el ancho según tus necesidades */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .card3C:hover{
+    transform: translateY(-10px); /* Mover la tarjeta 10px hacia arriba */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra */
+
   }
   
   .card3C img {
@@ -164,8 +186,15 @@
     overflow: hidden; /* Para que la imagen no sobresalga */
     position: relative; /* Para posicionar el contenido */
     width: 200px; /* Ajusta el ancho según tus necesidades */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   }
   
+.card3D:hover{
+  transform: translateY(-10px); /* Mover la tarjeta 10px hacia arriba */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra */
+
+}
+
   .card3D img {
     width: 100%;
     height: 150px; /* Ajusta la altura según tu imagen */
@@ -254,7 +283,7 @@
   
   .noti1 h3 {
     color: #191616;
-    text-align: left;
+    text-align: left justify;
   }
   
   .noti2 h3 {
@@ -264,30 +293,39 @@
   
   .parrafo1 {
   color: gray;
-  text-align: left;
+  text-align: left justify;
+  font-size: 20px; /* Ajusta el tamaño según tus preferencias */
+  text-align: justify;
+  width: 100%; /* Ajusta el ancho según sea necesario */
+
   }
   
   .parrafo2 {
     color: gray;
-    text-align: left;
+    text-align: left justify;
+    font-size: 20px; /* Ajusta el tamaño según tus preferencias */
+    text-align: justify;
+    width: 100%; /* Ajusta el ancho según sea necesario */
+  
   }
   
   .not1 {
-    display: flex;
+    display: ruby-text;
     justify-content: space-between;
     align-items: center;
   }
   
   .textonot1 {
     flex: 1;
+    text-align: justify;
   }
   
   .imagennot1 {
-    width: 30%;
+    width: 7%;
   }
   
   .not2 {
-    display: flex;
+    display: ruby-text;
     justify-content: space-between;
     align-items: center;
   }
@@ -297,13 +335,46 @@
   }
   
   .imagennot2 {
-    width: 30%;
+    width: 7%;
   }
-  
-  .botonmas button a{
-    color: #000000;
+
+
+ button {
+    color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 0 0 rgba(145, 64, 240, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5) ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     align-items: center;
-    text-decoration: none;
+  }
+button a {
+  text-decoration: none;
+  color: #000000;
+  border-radius: 40px;
+  box-shadow: 0 0 0 0 rgba(145, 64, 240, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5) ;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-items: center;
+}
+
+  button::after {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background: #c983da;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    z-index: -1;
+    transition: transform 0.5s ease;
+  } 
+
+  button :hover {
+    transform:  translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(16, 226, 253, 0.5), -10px 10px 25px 0 rgba(183, 0, 255, 0.7);
+
+  }
+
+  button:hover::after {
+    transform: rotate(150deg);
   }
   
   section #experienciasC {
@@ -321,38 +392,30 @@
       
   }
   
-  .boton-instagram {
-    display: inline-block;
-    background-color: #7289DA; /* Color del botón Discord */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+  .cuadroinsta {
     align-items: center;
   }
-  
-  .boton-instagram img {
-    width: 50px; /* Ajusta el tamaño del icono */
-    margin-right: 5px;
+
+
+  .cuadroinsta img {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
   }
-  
-  
-  .boton-instagram:hover {
-    background-color: #6441A5; /* Cambia el color al pasar el mouse */
+
+
+  .cuadroclass {
+    align-items: center;
   }
-  
-  .boton-classrom {
-    display: inline-block;
-    background-color: #7289DA; /* Color del botón Discord */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-  
-  .boton-classrom img {
-    width: 50px; /* Ajusta el tamaño del icono */
-    margin-right: 5px;
+
+  .cuadroclass img {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .publicar-experiencia {

@@ -1,4 +1,4 @@
-/*Holaa! voy creando un archivo CSS para tenerlo en el repo*/
+
 
 body {
   display:flex;
@@ -21,6 +21,15 @@ section tarjetasgeneral {
   cursor: pointer;
 }
 
+.imagenfacu img {
+  height: 350px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .titulogeneral1 {
   color:#F9AFAF;
 }
@@ -31,7 +40,7 @@ h1 {
 }
 
 .introbjetivo p{
-  color: rgb(0, 0, 0);
+  color: rgb(89, 88, 88);
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -39,10 +48,16 @@ h1 {
  }
 
 p {
-  color: rgb(0, 0, 0);
+  color: rgb(89, 88, 88);
 }
 
+.pgeneral1 p {
+  color: rgb(89, 88, 88);
+}
 
+.pgeneral1 li {
+  color: rgb(89, 88, 88);
+}
 .tarjetitas {
     display:flex;
     align-items: center;
@@ -182,100 +197,21 @@ p {
 .card-contentAD a {
   text-decoration: none;
   color: #585C86;
+} 
+
+footer {
+  background-color: #f28eb2; /* Ajusta el tono de rosa */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright {
+  font-size: 12px;
+  opacity: 0.7;
 }
 
 
 
-/*carrousel*/
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  max-width: 1440px;
-  margin: auto;
-}
-
-.slider-wrapper {
-  margin: 1rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.slides-container {
-  height: calc(100vh - 2rem);
-  width: 100%;
-  display: flex;
-  overflow: scroll;
-  scroll-behavior: smooth;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.slide-arrow {
-  position: absolute;
-  display: flex;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 4rem;
-  background-color: white;
-  border: none;
-  width: 2rem;
-  font-size: 3rem;
-  padding: 0;
-  cursor: pointer;
-  opacity: 0.5;
-  transition: opacity 100ms;
-}
-
-.slide-arrow:hover,
-.slide-arrow:focus {
-  opacity: 1;
-}
-
-#slide-arrow-prev {
-  left: 0;
-  padding-left: 0.25rem;
-  border-radius: 0 2rem 2rem 0;
-}
-
-#slide-arrow-next {
-  right: 0;
-  padding-left: 0.75rem;
-  border-radius: 2rem 0 0 2rem;
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  flex: 1 0 100%;
-}
-
-.slide:nth-child(1) {
-  background-color: #004AAD;
-}
-.slide:nth-child(2) {
-  background-color: #b03532;
-}
-
-.slide:nth-child(3) {
-  background-color: #6a478f;
-  margin: 0;
-}
-
-.slide:nth-child(4) {
-  background-color: #da6f2b;
-}
-
-.imagenfacu img{
-  align-items: center;
-  height: 350px;
-  justify-content: center;
-  display: flexbox;
-}
-
-
-                                           /*Fin pag principlal*/
+/*Fin pag principlal*/
