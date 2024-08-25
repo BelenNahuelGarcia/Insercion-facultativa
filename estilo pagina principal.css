@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+/*Archivo CSS de la página principal*/
+>>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
 
 body {
   display:flex;
@@ -10,10 +14,9 @@ body {
     font-family: "Margarine", sans-serif;
   font-weight: 400;
   font-style: normal; 
-  background-color:#ffffff;
+  background-color:rgb(255, 255, 255);
 
 }
-
 
 section tarjetasgeneral {
   display: flex;
@@ -21,6 +24,7 @@ section tarjetasgeneral {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .imagenfacu img {
   height: 350px;
   display: flex;
@@ -29,6 +33,9 @@ section tarjetasgeneral {
   align-items: center;
 }
 
+=======
+/*Para el título "Inserción facultativa"*/
+>>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
 
 .titulogeneral1 {
   color:#F9AFAF;
@@ -38,6 +45,8 @@ h1 {
   display:flex;
   justify-content:center;
 }
+
+/*Para el texto sobre el objetivo de la página*/
 
 .introbjetivo p{
   color: rgb(89, 88, 88);
@@ -214,4 +223,116 @@ footer {
 
 
 
+<<<<<<< HEAD
 /*Fin pag principlal*/
+=======
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.slider-wrapper {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  height:450px;
+}
+
+.slides-container {
+  height: calc(100vh - 2rem);
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-arrow {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 4rem;
+  background-color: white;
+  border: none;
+  width: 2rem;
+  font-size: 3rem;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 100ms;
+}
+
+.slide-arrow:hover,
+.slide-arrow:focus {
+  opacity: 1;
+}
+
+#slide-arrow-prev {
+  left: 0;
+  padding-left: 0.25rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+#slide-arrow-next {
+  right: 0;
+  padding-left: 0.75rem;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
+.slide:nth-child(1) {
+  background-color: #004AAD;
+}
+.slide:nth-child(2) {
+  background-color: #b03532;
+}
+
+.slide:nth-child(3) {
+  background-color: #6a478f;
+  margin: 0;
+}
+
+.slide:nth-child(4) {
+  background-color: #da6f2b;
+}
+
+#imagenfacu img {
+  display: block;
+  margin: auto;
+  height:350px;
+  width:700px;
+}
+
+#contenido {
+  border: 2px #000 solid;
+  width: 60%;
+  margin-bottom: 20px;
+  background-color: #ffffff solid;
+  height: 1250px;
+  padding:20px;
+  padding-top:20px;
+
+}
+
+.centrado {
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+
+
+                                           /*Fin pag principlal*/
+>>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
