@@ -53,3 +53,8 @@ li a:hover {
 #barra {
   background-color: rgb(224, 172, 172);
 }
+
+.centrotexto {
+  display:flex;
+  justify-content:center;
+}
