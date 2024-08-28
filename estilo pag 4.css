@@ -34,3 +34,22 @@ body{
   #barra {
     background-color: rgb(224, 172, 172);
   }
+
+  .header4 header {
+    align-items: left;
+    text-align: left;
+  }
+
+  header{
+    text-align: left;
+    align-items: left;
+  }
+  .chatestudiantil {
+    align-items: center;
+    text-align: center;
+  }
+
+  .t1ce {
+    color: black;
+    
+  }

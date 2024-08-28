@@ -4,10 +4,13 @@
     <head>
      <title> Inserción facultativa </title> 
      <link rel="icon" type="image/x-icon" href="icono libros.png">
-     <link rel="stylesheet" href="estilo pag 4.css"
+     <link rel="stylesheet" href="estilo pag 4.css">
     </head>
     <body>
-     <h1> Grupos estudiantiles </h1>
+    <header class="header4">
+       <h1>Grupos Estudiantiles </h1>
+    </header>
+
         <ul id="barra"> <!--menu con las paginas-->
             <li><a href="Pagina principal.html">Inicio</a></li>
             <li><a href="Pagina 1.html">Universidades</a></li>
@@ -15,5 +18,22 @@
             <li><a href="Pagina 3.html">Comunidad</a></li>
             <li><a href="Pagina 4.html">Grupos estudiantiles</a></li>
         </ul>
+
+    <div class="chatestudiantil">
+        <h1 class="t1ce">¡Únete a uno de nuestros grupos!</h1>
+        <form>
+            <label for="universidad">Selecciona tu universidad:</label>
+            <select id="universidad">
+                <option value="uba">UBA</option>
+                <option value="utn">UTN</option>
+                <option value="unlam">UNLAM</option>
+                <option value="unlp">UNLP</option>
+                <option value="universidad de san martin">Universidad de San Martin</option>
+                </select>
+            <button class="boton de ingreso" type="submit">Unirse al chat</button>
+        </form>
+       
+    </div>
+           <script src="script4.js"></script>
     </body>
 </html>
