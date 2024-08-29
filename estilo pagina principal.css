@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-
-=======
 /*Archivo CSS de la página principal*/
->>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
 
 body {
   display:flex;
@@ -16,7 +12,6 @@ body {
     font-family: "Margarine", sans-serif;
   font-weight: 400;
   font-style: normal; 
-  background-color:rgb(255, 255, 255);
 
 }
 
@@ -26,22 +21,9 @@ section tarjetasgeneral {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.imagenfacu img {
-  height: 350px;
-  display: flex;
-  place-items: center;
-  justify-content: center;
-  align-items: center;
-}
-
-=======
 /*Para el título "Inserción facultativa"*/
->>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
 
-.titulogeneral1 {
-  color:#F9AFAF;
-}
+
 
 h1 {
   display:flex;
@@ -211,10 +193,7 @@ p {
 } 
 
 footer {
-  background-color: #f28eb2; /* Ajusta el tono de rosa */
-  color: #fff;
-  text-align: center;
-  padding: 20px;
+  background-color:#F16BAE;
 }
 
 .copyright {
@@ -225,11 +204,7 @@ footer {
 /* Estilos adicionales para posicionar las imágenes y enlaces */
 
 /*Fin pag principlal*/
-<<<<<<< HEAD
-
-=======
 /*Archivo CSS de la página principal*/
->>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
 
 body {
   display:flex;
@@ -251,18 +226,7 @@ section tarjetasgeneral {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.imagenfacu img {
-  height: 350px;
-  display: flex;
-  place-items: center;
-  justify-content: center;
-  align-items: center;
-}
-
-=======
 /*Para el título "Inserción facultativa"*/
->>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
 
 .titulogeneral1 {
   color:#F9AFAF;
@@ -478,9 +442,6 @@ footer {
 
 
 
-<<<<<<< HEAD
-/*Fin pag principlal*/
-=======
 * {
   box-sizing: border-box;
 }
@@ -551,6 +512,9 @@ button:hover::after {
   transform: rotate(150deg);
 }
 
+.titulogeneral1 {
+  color:rgb(20, 27, 92);
+}
+
 
                                            /*Fin pag principlal*/
->>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
