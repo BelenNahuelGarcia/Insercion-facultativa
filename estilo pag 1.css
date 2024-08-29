@@ -90,6 +90,6 @@ p {
 #grid {
   display:grid;
   grid-template-columns: 30% 30% auto;
-  grid-template-rows: 50% auto 50%;
+  grid-template-rows: 60% auto 60%;
   justify-items: center;
 }
