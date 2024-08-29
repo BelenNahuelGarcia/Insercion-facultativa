@@ -6,6 +6,7 @@ body{
   flex-direction:column;
   font-family: Helvetica;
   color:rgb(20, 27, 92);
+  background: url(imagenes3/fondogeneral.jpg);
   }
 
   ul {
@@ -52,4 +53,8 @@ body{
   .t1ce {
     color: black;
     
+  }
+
+  .videopag4 {
+    text-align: center;
   }
