@@ -3,7 +3,7 @@
     display:flex;
     justify-content:center;
     flex-direction:column;
-    font-family: Helvetica;
+    background-image: url("imagenes3/fondogeneral.jpg");
     color:rgb(20, 27, 92);
     background-image: url("imagenes3/fondogeneral.jpg");
     }

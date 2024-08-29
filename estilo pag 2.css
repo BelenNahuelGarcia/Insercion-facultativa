@@ -6,6 +6,7 @@ body{
   flex-direction:column;
   font-family: Helvetica;
   color:rgb(20, 27, 92);
+  background-image: url("imagenes3/fondogeneral.jpg");
   }
 
   .fondogeneral {

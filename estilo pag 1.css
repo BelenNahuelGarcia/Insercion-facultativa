@@ -1,5 +1,7 @@
 /*Holaa! voy creando un archivo CSS para tenerlo en el repo*/
-
+body {
+  background-image: url("imagenes3/fondogeneral.jpg");
+}
 
   h1 {
     display:flex;
@@ -92,4 +94,5 @@ p {
   grid-template-columns: 30% 30% auto;
   grid-template-rows: 60% auto 60%;
   justify-items: center;
+  background-color:white;
 }
