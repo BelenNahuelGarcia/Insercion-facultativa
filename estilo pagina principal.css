@@ -33,7 +33,7 @@ h1 {
 /*Para el texto sobre el objetivo de la página*/
 
 .introbjetivo p{
-  color: rgb(89, 88, 88);
+  color: rgb(26, 17, 48);
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -41,15 +41,15 @@ h1 {
  }
 
 p {
-  color: rgb(89, 88, 88);
+  color: rgb(26, 17, 48);
 }
 
 .pgeneral1 p {
-  color: rgb(89, 88, 88);
+  color: rgb(26, 17, 48);
 }
 
 .pgeneral1 li {
-  color: rgb(89, 88, 88);
+  color: rgb(26, 17, 48);
 }
 .tarjetitas {
     display:flex;
@@ -247,9 +247,7 @@ h1 {
   font-style: normal;
  }
 
-p {
-  color: rgb(89, 88, 88);
-}
+
 
 .pgeneral1 p {
   color: rgb(89, 88, 88);
@@ -454,8 +452,8 @@ body {
 #imagenfacu img {
   display: block;
   margin: auto;
-  height:350px;
-  width:700px;
+  height:400px;
+  width:400px;
 }
 
 #contenido {
@@ -516,5 +514,20 @@ button:hover::after {
   color:rgb(20, 27, 92);
 }
 
+.sub_wo {
+  display:flex;
+  justify-content:center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3vmin;
+  color: rgb(120, 57, 172);
+  -webkit-text-stroke: .03em rgb(50, 23, 100);
+  text-shadow: .05em .05em 0 rgb(42, 11, 78);
+  }
+  
 
+  .centrotexto {
+    display:flex;
+    justify-content:center;
+  }
                                            /*Fin pag principlal*/
