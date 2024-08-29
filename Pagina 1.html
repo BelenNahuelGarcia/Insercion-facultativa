@@ -4,6 +4,7 @@
     <head>
         <title> Inserción facultativa </title> 
         <link rel="icon" type="image/x-icon" href="icono libros.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="estilo pag 1.css"
     </head>
     <body class="fondoazul">
@@ -21,82 +22,98 @@
 
         <!--Contenido-->
         <p class="centrotexto">
-            En esta página vas a encontrar información sobre seis de las universidades gratuitas más prestigiosas del país. Podrás encontrar información general, tips a tener en cuenta para elegir e investigar una carrera, así como egresados famosos, planes de estudios, y mucho más!
-        </p>
-        <ul id="grid"> <!--Menú de universidades-->
-            <li > <!--"tarjetita" de la UBA-->
-                <div class="row"> 
-                    <div class="column">
-                        <p>
-                            <p>Universidad de Buenos Aires <br>
-                         <img src="imagenespag1/UBA logo.png" alt="logo de la UBA"> <br>
-                        <p><br>La Universidad de Buenos Aires (UBA) es una universidad publica argentina con sede en la Ciudad de Buenos Aires.</p>
+            El objetivo de esta página es guiarte en la elección de tu camino académico: desde cómo encarar un plan de estudios hasta información sobre seis prestigiosas universidades nacionales. 
+
+            La búsqueda por una carrera universitaria es una elección que se puede hacer más de una vez, pero que debe ser pensada con cautela. Por eso, desde Inserción Facultativa buscamos darte las herramientas para empezar esta travesía.<br> 
+            A continuación, vamos a enumerar pasos que nos parece que sintetizan los puntos claves para embarcarse en la vida universitaria.
+        <div>
+            <p>
+                PRIMER PASO: Autoevaluación<br>
+
+                SEGUNDO PASO:Investigar planes de estudio, averiguar la oferta académica<br>
+
+                TERCER PASO: Conocer las oportunidades laborales<br>
+                <br>Ya que Insercion Facultativa pretende moverse exclusivamente en el ámbito académico, no podemos guiarlos en cuanto a las oportunidades laborales. Sin embargo, podemos tirarles el hilo sobre en qué lugares buscar: (insertar páginas web confiables)
+
+                <br><br>A continuación, pusimos un índice con información general sobre seis universidades nacionales. Desde Inserción Facultativa reconocemos el prestigio de la UBA, cuyos logros académicos son inigualables, pero también contemplamos la necesidad de los estudiantes de considerar otras opciones acorde a sus necesidades. 
+            </p>
+        </div>
+        <div class="columnas">
+            <ul id="grid"> <!--Menú de universidades-->
+                <li > <!--"tarjetita" de la UBA-->
+                <div>
+                    <div class="centrotexto">
+                        <p id="UBA">
+                            <a class="colorfont" href="https://www.uba.ar/">Universidad de Buenos Aires</a> <br>
+                             <img src="imagenespag1/UBA logo.png" alt="logo de la UBA"> <br>
+                            La Universidad de Buenos Aires (UBA) es una universidad publica argentina con sede en la Ciudad de Buenos Aires. Al hablar de la Universidad de Buenos Aires nos sobran los egresados notables que estudiaron en la institución. Entre las personalidades más conocidas se encuentran algunos de nuestros presidentes como Carlos Pellegrini, Hipólito Yrigoyen y Raúl Alfonsin. Además, 3 de nuestros premios Nobel en ciencias fueron ganados por investigadores que se formaron y dieron sus primeros pasos en la UBA: Bernardo Houssay, Luis Federico Leloir y César Milstein.
                         </p>
                     </div> 
                  </div>
-            </li>
+                </li>
      
                 <li> <!--"tarjetita" de la UTN-->
-                    <div class="row">
-                     <div class="column"> 
-                            <br>Universidad Tecnologica Nacional <br> 
-                            <img src="imagenespag1/UTN logo.png" alt="logo de la UTN">
-                            <p>La Universidad Tecnológica Nacional (UTN) es una universidad pública nacional de Argentina, es la única universidad del país cuya estructura académica tiene a las ingenierías como objetivo prioritario.</p>
+                    <div>
+                         <div class="centrotexto"> 
+                            <p id="UTN">
+                                <a class="colorfont" href="https://utn.edu.ar/es/">Universidad Tecnologica Nacional </a>
+                                <img src="imagenespag1/UTN logo.png" alt="logo de la UTN">
+                                <br><br>La Universidad Tecnológica Nacional (UTN) es una universidad pública nacional de Argentina, es la única universidad del país cuya estructura académica tiene a las ingenierías como objetivo prioritario.Entre los egresados famosos de esta universidad se encuentra la actual vicepresidenta de la Nación, Victoria Villaruel; Julio César Cleto Cobos, vicepresidente durante el primer mandato de Cristina Kirchner; Jorge Ferraresi, un longevo intendente de Avellaneda y Antonio Neri, el CEO de la reconocida empresa multinacional HP (Hewlett Packard Enterprise)
+                            </p>
                         </div>
                     </div>
                 </li>
-            <li> <!--"tarjetita" de la UNA-->
-                <div class="row">
-                    <div class="column">
-                        <p>
-                            Universidad Nacional de las Artes
-                            <img src="imagenespag1/UNA logo.png" alt="logo de la UNA"><br>
-                            La Universidad Nacional de las Artes (UNA) es una universidad pública de Argentina con sede en la Ciudad Autónoma de Buenos Aires que forma profesionales, docentes, artistas y realizadores en el campo de las artes y sus disciplinas afines.
-                        
-                        </p>
+                <li><!--tarjetita de la ULPT"-->
+                    <div>
+                        <div class="centrotexto">
+                            <p id="ULPT">
+                                <a class="colorfont" href="https://unlp.edu.ar/">Universidad de La Plata<br></a>
+                                <img src="imagenespag1/UNLP logo.png" alt="logo de la UNLP"><br><br>
+                                La Universidad Nacional de La Plata (UNLP) es una universidad pública de la República Argentina. Tiene sede en La Plata, capital de la Provincia de Buenos Aires, y es considerada la segunda institución más prestigiosa y representativa del país. Entre los egresados famosos de esta universidad se encuentran los presidentes Cristina Kirchner, Néstor Kirchner y Raúl Alfonsín (sí! estudió en la UBA y la ULPT). Además, entre algunas personalidades destacadas se encuentran nuestro Premio Nobel de la Paz Adolfo Pérez Esquivel y famosos escritores como Mariana Enríquez y Ricardo Piglia. 
+                            </p>
+                        </div>
                     </div>
-               </div>
-        
-            </li>
-            <li> <!--"tarjetita" de la UNLaM-->
-                <div class="row" class="centrotexto">
-                    <div class="column">   
-                        <p>
-                          Universidad de La Matanza
-                             <img src="imagenespag1/UNLaM logo.png" alt="logo de la UNLaM"><br>
-                             La Universidad Nacional de La Matanza (UNLaM) es una universidad estatal de Argentina fundada en el partido de La Matanza. Es la segunda universidad más grande de la provincia de Buenos Aires, solo detrás de la Universidad Nacional de La Plata. 
-                        </p> 
+                </li>
+                <li> <!--"tarjetita" de la UNA-->
+                    <div>
+                        <div class="centrotexto">
+                            <p>
+                               <a class="colorfont" href="https://www.una.edu.ar/">Universidad Nacional de las Artes</a>
+                                <img src="imagenespag1/UNA logo.png" alt="logo de la UNA"><br>
+                                La Universidad Nacional de las Artes (UNA) es una universidad pública de Argentina con sede en la Ciudad Autónoma de Buenos Aires que forma profesionales, docentes, artistas y realizadores en el campo de las artes y sus disciplinas afines.
+                            
+                            </p>
+                        </div>
+                   </div>
+            
+                </li>
+                <li> <!--"tarjetita" de la UNLaM-->
+                    <div>
+                        <div class="centrotexto">   
+                            <p>
+                              <a class="colorfont" href="https://www.unlam.edu.ar/">Universidad de La Matanza</a>
+                                 <img src="imagenespag1/UNLaM logo.png" alt="logo de la UNLaM"><br>
+                                 La Universidad Nacional de La Matanza (UNLaM) es una universidad estatal de Argentina fundada en el partido de La Matanza. Es la segunda universidad más grande de la provincia de Buenos Aires, solo detrás de la Universidad Nacional de La Plata. 
+                            </p> 
+                        </div>
                     </div>
-                </div>
-            </li> 
-            <li><!--tarjetita de la ULPT"-->
-             <div class="row">
-                 <div class="column">
-                     <p>
-                         Universidad de La Plata
-                         <img src="imagenespag1/UNLP logo.png" alt="logo de la UNLP"><br>
-                         La Universidad Nacional de La Plata (UNLP) es una universidad pública de la República Argentina. Tiene sede en La Plata, capital de la Provincia de Buenos Aires, y es considerada la segunda institución más prestigiosa y representativa del país.
-                     </p>
-                 </div>
-             </div>
-            </li>
-             <li> <!--tarjetita de la UNSAM-->
-                <div class="row">
-                    <div class="column">
-                      <p>
-                         Universidad de San Martin
-                         <img src="imagenespag1/UNSAM logo.png" alt="logo de la UNSAM"><br>
-                         La Universidad Nacional de General San Martín (UNSAM) es una universidad pública argentina cuya sede principal se ubica en la ciudad de San Martín
-                     </p>
+                </li> 
+                <li> <!--tarjetita de la UNSAM-->
+                    <div>
+                        <div class="centrotexto">
+                          <p>
+                             <a class="colorfont" href="https://unsam.edu.ar/">Universidad de San Martin</a>
+                             <img src="imagenespag1/UNSAM logo.png" alt="logo de la UNSAM"><br>
+                             La Universidad Nacional de General San Martín (UNSAM) es una universidad pública argentina cuya sede principal se ubica en la ciudad de San Martín
+                         </p>
+                        </div>
                     </div>
-                </div>
-   
-             </li>
-             
-        </ul>
-
-        Mucha suerte en tu elección!
+       
+                 </li>
+            </ul>
+        </div>
+        Mucha suerte en tu elección! Confiamos en que va a ser la mejor ;-)
     
-
+        <script src="pag1.js"></script>
     </body>
 </html>
