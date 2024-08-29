@@ -220,6 +220,259 @@ footer {
   opacity: 0.7;
 }
 
+/* Estilos adicionales para posicionar las imágenes y enlaces */
+
+/*Fin pag principlal*/
+<<<<<<< HEAD
+
+=======
+/*Archivo CSS de la página principal*/
+>>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
+
+body {
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  font-style: normal;}
+
+  .fondogeneral {
+    font-family: "Margarine", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  background-color:rgb(255, 255, 255);
+
+}
+
+section tarjetasgeneral {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+<<<<<<< HEAD
+.imagenfacu img {
+  height: 350px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+=======
+/*Para el título "Inserción facultativa"*/
+>>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
+
+.titulogeneral1 {
+  color:#F9AFAF;
+}
+
+h1 {
+  display:flex;
+  justify-content:center;
+}
+
+/*Para el texto sobre el objetivo de la página*/
+
+.introbjetivo p{
+  color: rgb(89, 88, 88);
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+ }
+
+p {
+  color: rgb(89, 88, 88);
+}
+
+.pgeneral1 p {
+  color: rgb(89, 88, 88);
+}
+
+.pgeneral1 li {
+  color: rgb(89, 88, 88);
+}
+.tarjetitas {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+    width: 900px;
+    padding: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.tarjetitas a {
+  text-decoration: none;
+}
+
+.cardAA {
+  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Para que la imagen no sobresalga */
+  position: relative; /* Para posicionar el contenido */
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cardAA img {
+  width: 100%;
+  height: 150px; /* Ajusta la altura según tu imagen */
+  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
+}
+
+.card-contentAA button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card-contentAA a {
+  text-decoration: none;
+  color: #F16BAE;
+}
+
+.cardAA:hover{
+  transform: translateY(-10px); /* Mover la tarjeta 10px hacia arriba */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra */
+
+}
+
+.cardAB {
+  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Para que la imagen no sobresalga */
+  position: relative; /* Para posicionar el contenido */
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cardAB img {
+  width: 100%;
+  height: 150px; /* Ajusta la altura según tu imagen */
+  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
+}
+
+.card-contentAB button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-contentAB a {
+  text-decoration: none;
+  color: #004AAD;
+}
+
+.cardAB:hover{
+  transform: translateY(-10px); /* Mover la tarjeta 10px hacia arriba */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra */
+
+}
+
+.cardAC {
+  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Para que la imagen no sobresalga */
+  position: relative; /* Para posicionar el contenido */
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.cardAC img {
+  width: 100%;
+  height: 150px; /* Ajusta la altura según tu imagen */
+  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
+}
+
+.card-contentAC button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  text-align: center;
+}
+
+.card-contentAC a {
+  text-decoration: none;
+  color: #000000;
+}
+.cardAC:hover{
+  transform: translateY(-10px); /* Mover la tarjeta 10px hacia arriba */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra */
+
+}
+
+.cardAD {
+  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Para que la imagen no sobresalga */
+  position: relative; /* Para posicionar el contenido */
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.cardAD img {
+  width: 100%;
+  height: 150px; /* Ajusta la altura según tu imagen */
+  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
+}
+
+.card-contentAD button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  text-align: center;
+}
+
+.card-contentAD a {
+  text-decoration: none;
+  color: #585C86;
+} 
+
+.cardAD:hover{
+  transform: translateY(-10px); /* Mover la tarjeta 10px hacia arriba */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Agregar una sombra */
+
+}
+
+footer {
+  background-color: #f28eb2; /* Ajusta el tono de rosa */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
 
 
 
@@ -233,80 +486,6 @@ footer {
 body {
   max-width: 1440px;
   margin: auto;
-}
-
-.slider-wrapper {
-  margin: 1rem;
-  position: relative;
-  overflow: hidden;
-  height:450px;
-}
-
-.slides-container {
-  height: calc(100vh - 2rem);
-  width: 100%;
-  display: flex;
-  overflow: scroll;
-  scroll-behavior: smooth;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.slide-arrow {
-  position: absolute;
-  display: flex;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 4rem;
-  background-color: white;
-  border: none;
-  width: 2rem;
-  font-size: 3rem;
-  padding: 0;
-  cursor: pointer;
-  opacity: 0.5;
-  transition: opacity 100ms;
-}
-
-.slide-arrow:hover,
-.slide-arrow:focus {
-  opacity: 1;
-}
-
-#slide-arrow-prev {
-  left: 0;
-  padding-left: 0.25rem;
-  border-radius: 0 2rem 2rem 0;
-}
-
-#slide-arrow-next {
-  right: 0;
-  padding-left: 0.75rem;
-  border-radius: 2rem 0 0 2rem;
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  flex: 1 0 100%;
-}
-
-.slide:nth-child(1) {
-  background-color: #004AAD;
-}
-.slide:nth-child(2) {
-  background-color: #b03532;
-}
-
-.slide:nth-child(3) {
-  background-color: #6a478f;
-  margin: 0;
-}
-
-.slide:nth-child(4) {
-  background-color: #da6f2b;
 }
 
 #imagenfacu img {
@@ -331,6 +510,44 @@ body {
   display:flex;
   justify-content:center;
   margin-top:50px;
+}
+
+button {
+  color: #fff;
+  border-radius: 40px;
+  box-shadow: 0 0 0 0 rgba(145, 64, 240, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5) ;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-items: center;
+}
+button a {
+text-decoration: none;
+color: #000000;
+border-radius: 40px;
+box-shadow: 0 0 0 0 rgba(145, 64, 240, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5) ;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+align-items: center;
+}
+
+button::after {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background: #c983da;
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  z-index: -1;
+  transition: transform 0.5s ease;
+} 
+
+button :hover {
+  transform:  translate(0, -6px);
+  box-shadow: 10px -10px 25px 0 rgba(16, 226, 253, 0.5), -10px 10px 25px 0 rgba(183, 0, 255, 0.7);
+
+}
+
+button:hover::after {
+  transform: rotate(150deg);
 }
 
 
