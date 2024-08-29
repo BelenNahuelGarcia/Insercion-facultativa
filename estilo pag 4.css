@@ -27,6 +27,11 @@ body{
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  h1 {
+    display:flex;
+    justify-content:center;
+  }
   
   li a:hover {
     background-color:  rgb(219, 153, 153);
