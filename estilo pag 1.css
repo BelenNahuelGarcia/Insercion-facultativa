@@ -1,5 +1,9 @@
 /*Holaa! voy creando un archivo CSS para tenerlo en el repo*/
-
+body {
+  background-image: url("imagenes3/fondogeneral.jpg");
+  font-family: Helvetica;
+  color:rgb(20, 27, 92);
+}
 
   h1 {
     display:flex;
@@ -41,11 +45,11 @@ li a {
 }
 
 li a:hover {
-  background-color:  rgb(219, 153, 153);
+  background-color:  rgb(204, 110, 110);
 }
 
 #barra {
-  background-color: rgb(224, 172, 172);
+  background-color: rgb(216, 123, 123);
 }
 
 .centrotexto {
@@ -89,7 +93,26 @@ p {
 
 #grid {
   display:grid;
-  grid-template-columns: 30% 30% auto;
-  grid-template-rows: 60% auto 60%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 47% 65% auto;
   justify-items: center;
+  background-color:white;
 }
+
+h6 {
+  background-color:rgb(202, 112, 112);
+}
+
+.subtitulos {
+  font-family: sans-serif;
+  font-size:large;
+}
+
+.sub_wo {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4vmin;
+  color: rgb(230, 189, 189);
+  -webkit-text-stroke: .03em rgb(83, 29, 29);
+  text-shadow: .05em .05em 0 rgb(90, 25, 25);
+  }

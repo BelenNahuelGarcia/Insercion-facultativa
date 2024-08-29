@@ -6,6 +6,7 @@ body{
   flex-direction:column;
   font-family: Helvetica;
   color:rgb(20, 27, 92);
+  background-image: url("imagenes3/fondogeneral.jpg");
   }
 
   .fondogeneral {
@@ -254,11 +255,11 @@ li a {
 }
 
 li a:hover {
-  background-color:  rgb(219, 153, 153);
+  background-color:  rgb(204, 110, 110);
 }
 
 #barra {
-  background-color: rgb(224, 172, 172);
+  background-color: rgb(216, 123, 123);
 }
 
     /*animacion pagina 2*/

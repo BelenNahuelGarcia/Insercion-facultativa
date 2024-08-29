@@ -27,13 +27,18 @@ body{
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  h1 {
+    display:flex;
+    justify-content:center;
+  }
   
   li a:hover {
-    background-color:  rgb(219, 153, 153);
+    background-color:  rgb(204, 110, 110);
   }
 
   #barra {
-    background-color: rgb(224, 172, 172);
+    background-color: rgb(216, 123, 123);
   }
 
   .header4 header {
