@@ -34,7 +34,6 @@ p {
     border: 5px solid rgb(9, 8, 56);
     padding: 50px;
     margin: 10px;
-    
 }
 
 .tarjetitas a {
@@ -57,6 +56,8 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
+  margin: 50px 0 0 auto;
+  width: 500px;  
 }
 
 .card2A:hover {
@@ -89,6 +90,7 @@ p {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+  
 }
 
 /*tarjjeta 2*/
@@ -99,6 +101,16 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
+  margin: 0 auto;
+  width: 500px;
+
+  
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 }
 
 .card2B:hover {
@@ -139,6 +151,7 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
+  width: 500px;
 }
 
 .card2C:hover {
@@ -181,6 +194,7 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
+  width: 500px;
 }
 
 .card2D:hover {
@@ -302,7 +316,7 @@ li a:hover {
       align-items: center;
     }
     
-    .button {
+    .buttonT2 {
       background-color: #F9AFAF;
       color: #F9AFAF;
       padding: 10px 20px;
@@ -343,7 +357,7 @@ li a:hover {
       align-items: center;
     }
     
-    .button {
+    .buttonT2 {
       background-color: #667ABE;
       color: #191616;
       padding: 10px 20px;
@@ -385,7 +399,7 @@ li a:hover {
       align-items: center;
     }
     
-    .button {
+    .buttonT3 {
       background-color: #ECE4DB;
       color: #191616;
       padding: 10px 20px;
@@ -427,7 +441,7 @@ li a:hover {
       align-items: center;
     }
     
-    .button {
+    .buttonT4 {
       background-color: #ffffff9b;
       color: #191616;
       padding: 10px 20px;
@@ -436,4 +450,46 @@ li a:hover {
       cursor: pointer;
       text-decoration: none;
     }
+
+    /*paneles*/
+
+    .panel{
+      position: center;
+      top:0;
+      left:0;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height:100%;
+      width: 100%;
+      transition: transform 300ms;
+      z-index:-1;
+   }
+   .panel div{ 
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     background: beige;
+     width: 400px;
+     height:870px;
+     z-index:1000;
+   }
+   .panel[data-on='on'] 
+   { transform: scale(1);}
+   
+   .panel[data-on='off']
+   { transform: scale(0);}
+
+   /*lista card3*/
+   ol {
+    background: #ff9999;
+    padding: 20px;}
+
+   ol li {
+    background: #ffe5e5;
+    color: rgb(138, 4, 4);
+    padding: 5px;
+    margin-left: 35px;}
+
     /*fin*/
