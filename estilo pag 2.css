@@ -102,22 +102,8 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
-<<<<<<< HEAD
   margin: 0 auto;
   width: 500px;
-=======
-  margin: 500px;
-  width: 333px;
-  height:500px;
-
-  
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
->>>>>>> b6f809c20f03d981614011020d205f63033febff
 }
 
 .card2B:hover {
