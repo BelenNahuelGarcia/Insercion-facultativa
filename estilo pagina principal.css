@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 /*Archivo CSS de la página principal*/
->>>>>>> 692160ccc216c98c9e4d47059ca22a47989d0cc7
 
 body {
   display:flex;
@@ -36,7 +33,7 @@ h1 {
 /*Para el texto sobre el objetivo de la página*/
 
 .introbjetivo p{
-  color: rgb(26, 17, 48);
+  color: rgb(89, 88, 88);
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -44,15 +41,15 @@ h1 {
  }
 
 p {
-  color: rgb(26, 17, 48);
+  color: rgb(89, 88, 88);
 }
 
 .pgeneral1 p {
-  color: rgb(26, 17, 48);
+  color: rgb(89, 88, 88);
 }
 
 .pgeneral1 li {
-  color: rgb(26, 17, 48);
+  color: rgb(89, 88, 88);
 }
 .tarjetitas {
     display:flex;
@@ -207,6 +204,7 @@ footer {
 /* Estilos adicionales para posicionar las imágenes y enlaces */
 
 /*Fin pag principlal*/
+/*Archivo CSS de la página principal*/
 
 body {
   display:flex;
@@ -228,14 +226,7 @@ section tarjetasgeneral {
   cursor: pointer;
 }
 
-.imagenfacu img {
-  height: 350px;
-  display: flex;
-  place-items: center;
-  justify-content: center;
-  align-items: center;
-}
-
+/*Para el título "Inserción facultativa"*/
 
 .titulogeneral1 {
   color:#F9AFAF;
@@ -256,7 +247,9 @@ h1 {
   font-style: normal;
  }
 
-
+p {
+  color: rgb(89, 88, 88);
+}
 
 .pgeneral1 p {
   color: rgb(89, 88, 88);
@@ -449,4 +442,79 @@ footer {
 
 
 
-/*Fin pag principlal*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+#imagenfacu img {
+  display: block;
+  margin: auto;
+  height:350px;
+  width:700px;
+}
+
+#contenido {
+  width: 60%;
+  margin-bottom: 20px;
+  background-color: #ffffff solid;
+  height: 1250px;
+  padding:20px;
+  padding-top:20px;
+
+}
+
+.centrado {
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+
+button {
+  color: #fff;
+  border-radius: 40px;
+  box-shadow: 0 0 0 0 rgba(145, 64, 240, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5) ;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-items: center;
+}
+button a {
+text-decoration: none;
+color: #000000;
+border-radius: 40px;
+box-shadow: 0 0 0 0 rgba(145, 64, 240, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5) ;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+align-items: center;
+}
+
+button::after {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background: #c983da;
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  z-index: -1;
+  transition: transform 0.5s ease;
+} 
+
+button :hover {
+  transform:  translate(0, -6px);
+  box-shadow: 10px -10px 25px 0 rgba(16, 226, 253, 0.5), -10px 10px 25px 0 rgba(183, 0, 255, 0.7);
+
+}
+
+button:hover::after {
+  transform: rotate(150deg);
+}
+
+.titulogeneral1 {
+  color:rgb(20, 27, 92);
+}
+
+
+                                           /*Fin pag principlal*/
