@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*Archivo CSS de la página principal*/
+>>>>>>> 692160ccc216c98c9e4d47059ca22a47989d0cc7
 
 body {
   display:flex;
@@ -11,7 +15,6 @@ body {
     font-family: "Margarine", sans-serif;
   font-weight: 400;
   font-style: normal; 
-  background-color:rgb(255, 255, 255);
 
 }
 
@@ -21,22 +24,9 @@ section tarjetasgeneral {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.imagenfacu img {
-  height: 350px;
-  display: flex;
-  place-items: center;
-  justify-content: center;
-  align-items: center;
-}
-
-=======
 /*Para el título "Inserción facultativa"*/
->>>>>>> b146c580ecaad13e900f85caf5c0ae550608b647
 
-.titulogeneral1 {
-  color:#F9AFAF;
-}
+
 
 h1 {
   display:flex;
@@ -46,7 +36,7 @@ h1 {
 /*Para el texto sobre el objetivo de la página*/
 
 .introbjetivo p{
-  color: rgb(89, 88, 88);
+  color: rgb(26, 17, 48);
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -54,15 +44,15 @@ h1 {
  }
 
 p {
-  color: rgb(89, 88, 88);
+  color: rgb(26, 17, 48);
 }
 
 .pgeneral1 p {
-  color: rgb(89, 88, 88);
+  color: rgb(26, 17, 48);
 }
 
 .pgeneral1 li {
-  color: rgb(89, 88, 88);
+  color: rgb(26, 17, 48);
 }
 .tarjetitas {
     display:flex;
@@ -206,10 +196,7 @@ p {
 } 
 
 footer {
-  background-color: #f28eb2; /* Ajusta el tono de rosa */
-  color: #fff;
-  text-align: center;
-  padding: 20px;
+  background-color:#F16BAE;
 }
 
 .copyright {
@@ -269,9 +256,7 @@ h1 {
   font-style: normal;
  }
 
-p {
-  color: rgb(89, 88, 88);
-}
+
 
 .pgeneral1 p {
   color: rgb(89, 88, 88);
