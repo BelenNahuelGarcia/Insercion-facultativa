@@ -103,14 +103,6 @@ p {
   align-items: center;
   margin: 0 auto;
   width: 500px;
-
-  
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
 }
 
 .card2B:hover {
@@ -316,7 +308,7 @@ li a:hover {
       align-items: center;
     }
     
-    .buttonT2 {
+    .button {
       background-color: #F9AFAF;
       color: #F9AFAF;
       padding: 10px 20px;
@@ -357,7 +349,7 @@ li a:hover {
       align-items: center;
     }
     
-    .buttonT2 {
+    .button {
       background-color: #667ABE;
       color: #191616;
       padding: 10px 20px;
@@ -399,7 +391,7 @@ li a:hover {
       align-items: center;
     }
     
-    .buttonT3 {
+    .button {
       background-color: #ECE4DB;
       color: #191616;
       padding: 10px 20px;
@@ -441,7 +433,7 @@ li a:hover {
       align-items: center;
     }
     
-    .buttonT4 {
+    .button {
       background-color: #ffffff9b;
       color: #191616;
       padding: 10px 20px;
