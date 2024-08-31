@@ -2,3 +2,7 @@ body {
     background-image: url("imagenes3/fondogeneral.jpg");
     font-family:Helvetica, "Archivo Black", sans-serif;
 }
+
+footer {
+    background-color:#F16BAE;
+  }

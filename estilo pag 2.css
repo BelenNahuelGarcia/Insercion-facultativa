@@ -56,8 +56,9 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
-  margin: 50px 0 0 auto;
-  width: 500px;  
+  margin: 500px;
+  width: 333px;  
+  height:500px;
 }
 
 .card2A:hover {
@@ -101,8 +102,22 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
+<<<<<<< HEAD
   margin: 0 auto;
   width: 500px;
+=======
+  margin: 500px;
+  width: 333px;
+  height:500px;
+
+  
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+>>>>>>> b6f809c20f03d981614011020d205f63033febff
 }
 
 .card2B:hover {
@@ -143,7 +158,8 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
-  width: 500px;
+  width: 333px;
+  height:500px;
 }
 
 .card2C:hover {
@@ -186,7 +202,8 @@ p {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   align-items: center;
-  width: 500px;
+  width: 999px;
+  height:250px;
 }
 
 .card2D:hover {
@@ -485,3 +502,37 @@ li a:hover {
     margin-left: 35px;}
 
     /*fin*/
+
+    
+
+    #grid {
+      display:grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 20% 0% 0%;
+      justify-items: center;
+      background-color:white;
+      align-items:center;
+      align-content:center;
+    }
+
+    ul#grid {
+      height:500px;
+      width:1100px;
+    }
+  
+    
+    .columnas {
+      padding: 15px;
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+      -webkit-column-gap: 40px;
+      -moz-column-gap: 100px;
+      column-gap: 40px;
+      display:flex;
+      justify-content: space-between;
+    }
+
+    .centrado {
+      justify-content:center;
+    }
