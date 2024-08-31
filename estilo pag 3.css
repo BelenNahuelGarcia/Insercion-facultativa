@@ -6,7 +6,7 @@
     background-image: url("imagenes3/fondogeneral.jpg");
     font-family: Helvetica;
     color:rgb(20, 27, 92);
-    background-image: url("imagenes3/fondogeneral.jpg");
+
     }
   
     .fondogeneral {
@@ -15,8 +15,12 @@
   
   
   h1 {
-    display:flex;
-    justify-content:center;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+    text-align: center;
   }
   
   .introbjetivo p{
@@ -42,17 +46,6 @@
     text-decoration: none;
   }
   
-   .headerpag3 {
-    color: rgb(0, 0, 0);
-    text-align: left;
-     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-    font-style: normal; 
-  }
-  
-  .headerpag3 h1 {
-     color: #000000;
-  }
   
   .icon {
     font-size: 60px; /* Ajusta el tamaño según tus necesidades */
@@ -221,11 +214,12 @@
   
   
    .title3A {
-      font-family: "Calistoga", serif;
-      font-weight: 400;
-      font-style: normal;
-    
-    color: #000000; }
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #000000;
+  }
   
   .calendar {
     background: #c983da;
@@ -274,11 +268,11 @@
   
                                   /*Seccion Noticias*/
   .title3B {
-    color: #000000;
-      font-family: "Calistoga", serif;
-      font-weight: 400;
-      font-style: normal;
-  
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+color: #000000;
     
   }
   
@@ -293,7 +287,7 @@
   }
   
   .parrafo1 {
-  color: gray;
+  color: rgb(0, 0, 0);
   text-align: left justify;
   font-size: 20px; /* Ajusta el tamaño según tus preferencias */
   text-align: justify;
@@ -302,7 +296,7 @@
   }
   
   .parrafo2 {
-    color: gray;
+    color: rgb(0, 0, 0);
     text-align: left justify;
     font-size: 20px; /* Ajusta el tamaño según tus preferencias */
     text-align: justify;
@@ -336,6 +330,29 @@
   }
   
   .imagennot2 {
+    width: 7%;
+  }
+
+  .not3{
+    display: ruby-text;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .textonot3 {
+    flex: 1;
+  }
+
+  .parrafo3 {
+    color: rgb(0, 0, 0);
+    text-align: left justify;
+    font-size: 20px; /* Ajusta el tamaño según tus preferencias */
+    text-align: justify;
+    width: 100%; /* Ajusta el ancho según sea necesario */
+  
+  }
+
+  .imagennot3 {
     width: 7%;
   }
 
@@ -435,11 +452,6 @@ button a {
     font-style: normal;
   }
   
-  .headerpag3 h1 {
-    font-family: "Calistoga", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
   
   .title3A h1 {
       font-family: "Calistoga", serif;
@@ -455,15 +467,17 @@ button a {
   }
   
   .headerpag3 h1 {
-    font-family: "Calistoga", serif;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: #000000;
+  }
+   
+ .title3A h1 {
+    font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .title3A h1 {
-      font-family: "Calistoga", serif;
-      font-weight: 400;
-      font-style: normal;
   }
   
   ul {
