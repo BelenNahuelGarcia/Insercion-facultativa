@@ -24,14 +24,6 @@ ul {
   overflow: hidden;
 }
 
-.row {
-  display:grid;
-  display:flex;
-  justify-content: space-around;
-  width: 250px;
-  border: 2px solid rgb(236, 182, 182);
-}
-
 li {
   float: left;
 }
@@ -112,7 +104,13 @@ h6 {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 4vmin;
-  color: rgb(230, 189, 189);
-  -webkit-text-stroke: .03em rgb(83, 29, 29);
-  text-shadow: .05em .05em 0 rgb(90, 25, 25);
+  color: rgb(31, 39, 110);
+  -webkit-text-stroke: .03em rgb(20, 27, 92);
+  text-shadow: .05em .05em 0 rgb(32, 15, 80);
   }
+
+  .rosa {
+    background-color: pink;
+  }
+
+

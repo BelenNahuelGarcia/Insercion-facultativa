@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="estilo pag 1.css"
         <link rel="stylesheet" href="estilogeneral.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
     <body class="fondoazul">
         <h1> Universidades </h1>
@@ -31,39 +32,41 @@
                 La búsqueda por una carrera universitaria es una elección que se puede hacer más de una vez, pero que debe ser pensada con cautela. Por eso, desde Inserción Facultativa buscamos darte las herramientas para empezar esta travesía.<br> <br>
                  A continuación, vamos a enumerar tres pasos que nos parece que sintetizan los puntos claves para embarcarse en la vida universitaria.
         
-            <p>
-                <div class="subtitulos">
-                    <span class="sub_wo">
-                        &mdash; PRIMER PASO: Realizar una autoevaluación
-                    </span><br/><br/>Elegir una carrera universitaria no es una elección fácil. Ingresar y estudiar en una universidad requiere mucho tiempo, esfuerzo y plata. Por ende, es clave meditar acerca de esta elección. Para realizar la autoevaluación proponemos las siguientes ideas sobre las cuales reflexionar:<br> <br>
+            </p>
+                <div class="subtitulos"> <!--Tres pasos a seguir tabs bootstrap-->
+                    <div class="rosa" class="row">
+                        <div class="col-4">
+                          <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">1.Autoevaluación</a>
+                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">2.Oferta académica</a>
+                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">3.Oportunidades laborales</a>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"><br/>Elegir una carrera universitaria no es una elección fácil. Ingresar y estudiar en una universidad requiere mucho tiempo, esfuerzo y plata. Por ende, es clave meditar acerca de esta elección. Para realizar la autoevaluación proponemos las siguientes ideas sobre las cuales reflexionar:<br> <br>
                  
-                    a) Pensar en tus habilidades actuales o en las que te destacás<br>
-                    b) Reflexionar sobre qué habilidades te gustaría trabajar en el futuro<br>
-                    Si estás teniendo problemas con estos dos primeros puntos, lo mejor es abrirte a nuevas experiencias: inscribite en talleres, cursos o incluso podés empezar a explorar nuevas actividades de forma autodidacta o con amigos<br>
-                    c) Al elegir una carrera es muy importante visualizarse a uno mismo: el ejercicio que propinemos es imaginarte estudiando intensamente la carrera que elegiste por 4 o más años. ¿Estarías feliz en ese panorama?<br>
-                    d) Investigar sobre industrias en las que te gustaría desempeñarte (inserte link páginas web). También se puede intentar contactar a profesionales para hacerles preguntas y obtener información de primera mano sobre el área en el que se especializan<br>
-                    <br><span class="sub_wo">
-                    &mdash; SEGUNDO PASO: Investigar la oferta académica
-                    </span><br/>
-                    <p>
-                        Para empezar, un plan de estudios es esquema que sigue una institución educativa e indica las materias que conforman una carrera, así como qué tipo de aprendizaje se prioriza en la institución educativa. 
-                        Entre los factores más importantes para analizar un plan de estudios:<br><br>
-                        a) Materias del plan de estudio: Estas son el corazón de la carrera, y es importante prestar atención a cuales son obligatorias, cuáles optativas y si tienen alguna correlatividad con alguna otra materia. <br>
-                        b) Duración aproximada: La mayoría de las carreras universitarias duran 4 o 5 años, pero algunas podrían llegar a extenderse más que eso. 
-                        c) Perfil del egresado: Muchas universidades proveen una descripción del tipo de egresado que proponen sus planes de estudios. Estos incluyen las habilidades que adquieren a lo largo de la carrera, y los ámbitos en los que puede desempeñarse.
-                    </p>
-                    <br><span class="sub_wo">
-                    &mdash; TERCER PASO: Conocer las oportunidades laborales
-                    </span><br/><br/>
-                    Ya que Insercion Facultativa pretende moverse exclusivamente en los ámbitos académicos y sociales, no podemos guiarlos en cuanto a las oportunidades laborales. Sin embargo, podemos tirarles el hilo sobre en qué lugares investigar:<br>
-                    <br> <a href="https://www.indec.gob.ar/">INDEC</a>:La página del INDEC ofrece una amplia variedad de estadísticas oficiales sobre empleo y otros indicadores económicos en Argentina. Les recomendamos buscar en su sección llamada "Trabajo e Ingresos".<br><br>
-                    <a href="https://www.argentina.gob.ar/capital-humano/trabajo">MINISTERIO DE TRABAJO</a>: El Ministerio de Trabajo, ahora llamado de Capital Humano, proporciona informes y datos sobre el mercado laboral en Argentina, incluyendo informes sobre la evolución del empleo y desempleo.<br><br>
-                    <a href="https://buenosaires.gob.ar/desarrolloeconomico/subsecretaria-desarrollo-economico/estrategia-productiva/observatorio-para-la-empleabilidad">OBSERVATORIO PARA LA EMPLEABILIDAD</a> : Ofrece un análisis global y permanente de los desajustes entre la demanda y la oferta laboral desde el punto de vista de las cualificaciones de la población en edad de trabajar.
-                    
-                    Dependiendo de la región, algunas universidades o instituciones tienen observatorios dedicados al análisis del mercado laboral. Por ejemplo, la Universidad de Buenos Aires (UBA) tiene el OMT que ofrece información relevante.<br>
+                                a) Pensar en tus habilidades actuales o en las que te destacás<br>
+                                b) Reflexionar sobre qué habilidades te gustaría trabajar en el futuro<br>
+                                Si estás teniendo problemas con estos dos primeros puntos, lo mejor es abrirte a nuevas experiencias: inscribite en talleres, cursos o incluso podés empezar a explorar nuevas actividades de forma autodidacta o con amigos<br>
+                                c) Al elegir una carrera es muy importante visualizarse a uno mismo: el ejercicio que propinemos es imaginarte estudiando intensamente la carrera que elegiste por 4 o más años. ¿Estarías feliz en ese panorama?<br>
+                                d) Investigar sobre industrias en las que te gustaría desempeñarte (inserte link páginas web). También se puede intentar contactar a profesionales para hacerles preguntas y obtener información de primera mano sobre el área en el que se especializan<br></div>
+                            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Para empezar, un plan de estudios es esquema que sigue una institución educativa e indica las materias que conforman una carrera, así como qué tipo de aprendizaje se prioriza en la institución educativa. 
+                                Entre los factores más importantes para analizar un plan de estudios:<br><br>
+                                a) Materias del plan de estudio: Estas son el corazón de la carrera, y es importante prestar atención a cuales son obligatorias, cuáles optativas y si tienen alguna correlatividad con alguna otra materia. Te recomendemos que las veas todas y que las clasifiques en tres categorías: te agradan y/o te llaman la atención, no las conocés y tenés que investigarlas y las que no te gustan.  <br>
+                                b) Duración aproximada: La mayoría de las carreras universitarias duran 4 o 5 años, pero algunas podrían llegar a extenderse más que eso. 
+                                c) Perfil del egresado: Muchas universidades proveen una descripción del tipo de egresado que proponen sus planes de estudios. Estos incluyen las habilidades que adquieren a lo largo de la carrera, y los ámbitos en los que puede desempeñarse.</div>
+                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Ya que Insercion Facultativa pretende moverse exclusivamente en los ámbitos académicos y sociales, no podemos guiarlos en cuanto a las oportunidades laborales. Sin embargo, podemos tirarles el hilo sobre en qué lugares investigar:<br>
+                                <br> <a href="https://www.indec.gob.ar/">INDEC</a>:La página del INDEC ofrece una amplia variedad de estadísticas oficiales sobre empleo y otros indicadores económicos en Argentina. Les recomendamos buscar en su sección llamada "Trabajo e Ingresos".<br><br>
+                                <a href="https://www.argentina.gob.ar/capital-humano/trabajo">MINISTERIO DE TRABAJO</a>: El Ministerio de Trabajo, ahora llamado de Capital Humano, proporciona informes y datos sobre el mercado laboral en Argentina, incluyendo informes sobre la evolución del empleo y desempleo.<br><br>
+                                <a href="https://buenosaires.gob.ar/desarrolloeconomico/subsecretaria-desarrollo-economico/estrategia-productiva/observatorio-para-la-empleabilidad">OBSERVATORIO PARA LA EMPLEABILIDAD</a> : Ofrece un análisis global y permanente de los desajustes entre la demanda y la oferta laboral desde el punto de vista de las cualificaciones de la población en edad de trabajar.Dependiendo de la región, algunas universidades o instituciones tienen observatorios dedicados al análisis del mercado laboral. Por ejemplo, la Universidad de Buenos Aires (UBA) tiene el OMT que ofrece información relevante.<br>
                 
-                    <br>Además, algunas universidades y centros académicos en Argentina, como la Universidad de Buenos Aires (UBA) o el Instituto de Investigaciones Económicas (IIE), pueden tener estudios y estadísticas relacionadas con el mercado laboral por carrera.
-                
+                                <br>Además, algunas universidades y centros académicos en Argentina, como la Universidad de Buenos Aires (UBA) o el Instituto de Investigaciones Económicas (IIE), pueden tener estudios y estadísticas relacionadas con el mercado laboral por carrera.</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+            
                 <br><br>A continuación, pusimos un índice con información general sobre seis universidades nacionales. Si bien estas universidades son argentinas, personas de todas las nacionalidades pueden estudiar libremente en ellas.<br>
                 <br><span class="sub_wo">
                     &mdash; ÍNDICE DE UNIVERSIDADES NACIONALES
