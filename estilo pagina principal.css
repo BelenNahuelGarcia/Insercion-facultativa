@@ -1,8 +1,10 @@
+/*Estilo de la página principal*/
 
 body {
   display:flex;
   justify-content:center;
   flex-direction:column;
+  color:rgb(20, 27, 92);
   font-style: normal;
   background-image: url("imagenes3/fondogeneral.jpg");
 }
@@ -22,34 +24,27 @@ section tarjetasgeneral {
 
 /*Para el título "Inserción facultativa"*/
 
-
-
 h1 {
   display:flex;
   justify-content:center;
 }
+h4 {
+  display:flex;
+  justify-content:center;
+}
+
 
 /*Para el texto sobre el objetivo de la página*/
 
 .introbjetivo p{
-  color: rgb(89, 88, 88);
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
  }
 
-p {
-  color: rgb(89, 88, 88);
-}
 
-.pgeneral1 p {
-  color: rgb(89, 88, 88);
-}
 
-.pgeneral1 li {
-  color: rgb(89, 88, 88);
-}
 .tarjetitas {
     display:flex;
     align-items: center;
@@ -65,132 +60,6 @@ p {
   text-decoration: none;
 }
 
-.cardAA {
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
-  border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Para que la imagen no sobresalga */
-  position: relative; /* Para posicionar el contenido */
-  width: 200px; /* Ajusta el ancho según tus necesidades */
-  transition: transform 0.3s ease-in-out;
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.cardAA img {
-  width: 100%;
-  height: 150px; /* Ajusta la altura según tu imagen */
-  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
-}
-
-.card-contentAA button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.card-contentAA a {
-  text-decoration: none;
-  color: #F16BAE;
-}
-
-.cardAB {
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Para que la imagen no sobresalga */
-  position: relative; /* Para posicionar el contenido */
-  width: 200px; /* Ajusta el ancho según tus necesidades */
-}
-
-.cardAB img {
-  width: 100%;
-  height: 150px; /* Ajusta la altura según tu imagen */
-  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
-}
-
-.card-contentAB button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
-  text-align: center;
-  text-decoration: none;
-}
-
-.card-contentAB a {
-  text-decoration: none;
-  color: #004AAD;
-}
-
-.cardAC {
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Para que la imagen no sobresalga */
-  position: relative; /* Para posicionar el contenido */
-  width: 200px; /* Ajusta el ancho según tus necesidades */
-}
-
-.cardAC img {
-  width: 100%;
-  height: 150px; /* Ajusta la altura según tu imagen */
-  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
-}
-
-.card-contentAC button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
-  text-align: center;
-}
-
-.card-contentAC a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.cardAD {
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Para que la imagen no sobresalga */
-  position: relative; /* Para posicionar el contenido */
-  width: 200px; /* Ajusta el ancho según tus necesidades */
-}
-
-.cardAD img {
-  width: 100%;
-  height: 150px; /* Ajusta la altura según tu imagen */
-  object-fit: cover; /* Para que la imagen se ajuste al contenedor */
-}
-
-.card-contentAD button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
-  text-align: center;
-}
-
-.card-contentAD a {
-  text-decoration: none;
-  color: #585C86;
-} 
-
 footer {
   background-color:#F16BAE;
 }
@@ -199,11 +68,6 @@ footer {
   font-size: 12px;
   opacity: 0.7;
 }
-
-/* Estilos adicionales para posicionar las imágenes y enlaces */
-
-/*Fin pag principlal*/
-/*Archivo CSS de la página principal*/
 
 body {
   display:flex;
@@ -271,17 +135,7 @@ h1 {
   font-style: normal;
  }
 
-p {
-  color: rgb(89, 88, 88);
-}
 
-.pgeneral1 p {
-  color: rgb(89, 88, 88);
-}
-
-.pgeneral1 li {
-  color: rgb(89, 88, 88);
-}
 .tarjetitas {
     display:flex;
     align-items: center;
@@ -453,7 +307,7 @@ p {
 
 footer {
   background-color: #f28eb2; /* Ajusta el tono de rosa */
-  color: #fff;
+  color: #ffff;
   text-align: center;
   padding: 20px;
 }
@@ -534,5 +388,15 @@ button :hover {
 
 button:hover::after {
   transform: rotate(150deg);
+}
+
+#Carrusel {
+  width:500px;
+  height:200px;
+}
+
+p {
+  display:flex;
+  justify-content:center;
 }
                                            /*Fin pag principlal*/

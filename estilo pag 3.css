@@ -1,4 +1,4 @@
-   /*seccion comunidad pag 3*/
+   /*Estilo de la página 3-Comunidad educativa*/
    body{
     display:flex;
     justify-content:center;
@@ -26,10 +26,6 @@
   .introbjetivo p{
     color: rgb(196, 196, 196);
    }
-  
-  p {
-    color: rgb(180, 180, 180);
-  }
   
   .tarjetitas {
       display:flex;
@@ -96,7 +92,7 @@
   
   .card-content3A a {
     text-decoration: none;
-    color: #F9AFAF;
+    color: #F16BAE;
   }
   
   .card3B {
@@ -471,7 +467,7 @@ button a {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  color: #000000;
+  color:rgb(20, 27, 92);
   }
    
  .title3A h1 {
@@ -506,3 +502,24 @@ button a {
   #barra {
     background-color: rgb(216, 123, 123);
   }  
+
+  .titulogeneral1 {
+    font-family: "Cinzel", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    }
+
+    footer {
+      background-color: #f28eb2; /* Ajusta el tono de rosa */
+      color: #ffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .parrafo-introductorio h2 {
+      font-weight: 400;
+      font-family: "Playwrite BE WAL", cursive;
+      font-optical-sizing: auto;
+      font-style: normal;
+      color: #667abe;
+    }

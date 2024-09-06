@@ -1,4 +1,4 @@
-/*Holaa! voy creando un archivo CSS para tenerlo en el repo*/
+/*Estilo de la página 2-Tips de estudio*/
 
 body{
   display:flex;
@@ -23,9 +23,6 @@ h1 {
   color: rgb(196, 196, 196);
  }
 
-p {
-  color: rgb(180, 180, 180);
-}
 
 .tarjetitas {
     display:flex;
@@ -504,3 +501,16 @@ li a:hover {
     .centrado {
       justify-content:center;
     }
+
+    .titulogeneral1 {
+      font-family: "Cinzel", system-ui;
+      font-weight: 800;
+      font-style: normal;
+      }
+    
+      footer {
+        background-color: #f28eb2; /* Ajusta el tono de rosa */
+        color: #ffff;
+        text-align: center;
+        padding: 20px;
+      }

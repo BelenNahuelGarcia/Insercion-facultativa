@@ -1,4 +1,4 @@
-/*Holaa! voy creando un archivo CSS para tenerlo en el repo*/
+/*Estilo de la página 4-Grupos estudiantiles*/
 
 body{
   display:flex;
@@ -63,3 +63,24 @@ body{
   .videopag4 {
     text-align: center;
   }
+
+  .titulogeneral1 {
+    font-family: "Cinzel", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    }
+  
+    footer {
+      background-color: #f28eb2; /* Ajusta el tono de rosa */
+      color: #ffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .parrafo-introductorio h2 {
+      font-weight: 400;
+      font-family: "Playwrite BE WAL", cursive;
+      font-optical-sizing: auto;
+      font-style: normal;
+      color: #667abe;
+    }
