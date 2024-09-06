@@ -83,16 +83,6 @@ p {
   align-items: center;
 }
 
-.button {
-  background-color: #F9AFAF;
-  color: #F9AFAF;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  
-}
 
 /*tarjjeta 2*/
 .card2B {
@@ -136,15 +126,6 @@ p {
   align-items: center;
 }
 
-.button {
-  background-color: #667ABE;
-  color: #191616;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-}
 /*tarjeta 3*/
 .card2C {
   background-color: #ECE4DB;
@@ -179,15 +160,7 @@ p {
   align-items: center;
 }
 
-.button {
-  background-color: #ECE4DB;
-  color: #191616;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-}
+
 
 /*tarjeta 4*/
 .card2D {

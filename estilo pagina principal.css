@@ -226,9 +226,34 @@ section tarjetasgeneral {
 }
 
 /*Para el título "Inserción facultativa"*/
+header {
+  background-color: rgb(20, 27, 92);
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 .titulogeneral1 {
-  color:#F9AFAF;
+  color: #ffffff;
+  font-family: "Cinzel", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 h1 {
@@ -451,11 +476,11 @@ body {
 }
 
 #imagenfacu img {
-  display: block;
+  display: flex;
   margin: auto;
   height:350px;
   width:700px;
-}
+} 
 
 #contenido {
   width: 60%;
@@ -510,10 +535,4 @@ button :hover {
 button:hover::after {
   transform: rotate(150deg);
 }
-
-.titulogeneral1 {
-  color:rgb(20, 27, 92);
-}
-
-
                                            /*Fin pag principlal*/
