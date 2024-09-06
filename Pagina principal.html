@@ -7,6 +7,9 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kaushan+Script&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
    </head>
    <body class="fondogeneral">
       <div class="centrado">
@@ -29,53 +32,62 @@
           Nuestra misión es acompañarlos y facilitarles esta transición, para que empeicen esta nueva etapa con todas las pilas.
           
        </p>
-         <div class="tarjetitas">
-            <div class="cardAA">
-               <img src="imagenes principal/universidades.png" alt="card3A">
-               <div class="card-content3A">
-                  <button> 
-                  <a href="Pagina 1.html">Universidades</a>
-                  </button>  
-               </div>
-            </div>
-            <div class="cardAB">
-               <img src="imagenes principal/tips de estudio.png" alt="card3B">
-               <div class="card-content3B">
-                  <button>
-                  <a href="Pagina 2.html">Tips de Estudio</a>  
-                  </button>   
-               </div>
-            </div>
-            <div class="cardAC">
-               <img src="imagenes principal/comunidad .png" alt="card3C">
-               <div class="card-content3C">
-                  <button>
-                  <a href="Pagina 3.html">Comunidad</a>
-                  </button>  
-               </div>
-            </div>
-            <div class="cardAD">
-               <img src="imagenes principal/grupo estudiantil.png" alt="card3D">
-               <div class="card-content3D">
-                  <button>
-                  <a href="Pagina 4.html">Grupos estudiantiles</a>
-                  </button> 
+       <!--El carrousel hecho con Bootstrap-->
+       <div id="Indicadores" class="carousel slide" data-ride="carousel">
+         <!--Indicadores-->
+         <ol class="carousel-indicators">
+           <li data-target="#Indicadores" data-slide-to="0" class="active"></li>
+           <li data-target="#Indicadores" data-slide-to="1"></li>
+           <li data-target="#Indicadores" data-slide-to="2"></li>
+           <li data-target="#Indicadores" data-slide-to="3"></li>
+         </ol>
+         <!--Lo visual del carrousel-->
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <a href="Pagina 1.html"><img class="d-block w-100" src="imagenes principal/universidades.png" href="Pagina 1.html" alt="Universidades"></a>
+             <div class="carousel-caption">
+                  <h3>Universidades</h3>
+                  <p>Para conocer a fondo tu futura casa de estudios</p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <a href="Pagina 2.html"><img class="d-block w-100" src="imagenes principal/tips de estudio.png" alt="Tips de estudio"></a>
+             <div class="carousel-caption">
+                  <h3>Tips de estudio</h3>
+                  <p>Para dominar las técnicas de aprendizaje más efectivas</p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <a href="Pagina 3.html"><img class="d-block w-100" src="imagenes principal/comunidad.png" alt="Comunidad"></a>
+             <div class="carousel-caption">
+                  <h3>Comunidad</h3>
+                  <p>Para conectar con la comunidad educativa</p>
+             </div>
+           </div>
+            <div class="carousel-item">
+               <a href="Pagina 4.html"><img class="d-block w-100" src="imagenes principal/grupo estudiantil.png" alt="Grupo de estudiantes"></a>
+               <div class="carousel-caption">
+                  <h3>Grupos estudiantiles</h3>
+                  <p>Para encontrar tu grupo de estudio ideal.</p>
+
                </div>
             </div>
          </div>
+         <!--Los controles del carrousel, izquierda y derecha-->
+         <a class="carousel-control-prev" href="#Indicadores" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#Indicadores" role="button" data-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+         </a>
+         
+       </div>
          <div class="introbjetivo">
             <!--Primer bloque, introducción del objetivo del sitio-->
             <section id="tarjetasgeneral">
          </div>
-         </section>
-         Explora nuestras secciones de: 
-         <br>
-         <ul>
-            <li>"Universidades" para conocer a fondo tu futura casa de estudios</li>
-            <li>"Tips de Estudio" para dominar las técnicas de aprendizaje más efectivas</li>
-            <li>"Comunidad" para conectar con otros estudiantes</li>
-            <li>"Grupos Estudiantiles" para encontrar tu grupo de estudio ideal.</li>
-         </ul>
         
         </div>
       </div>
@@ -86,6 +98,9 @@
       <!--Tercer bloque, créditos, sobre nosotras, información de contacto, etc-->
     
       <script src="pagprinc.js"></script>
-    
+      
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
    </body>
 </html>
