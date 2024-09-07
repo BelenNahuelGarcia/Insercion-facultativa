@@ -160,17 +160,6 @@ h1 {
 
 
 /*tarjeta 4*/
-.card2D {
-  background-color: #1F244A;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  align-items: center;
-  width: 999px;
-  height:250px;
-}
-
 .card2D:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -390,6 +379,8 @@ li a:hover {
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
       overflow: hidden;
       transition: transform 0.3s ease-in-out;
+      width: 999px;
+      height: 250px;
       align-items: center;
     }
     
@@ -496,6 +487,8 @@ li a:hover {
       column-gap: 40px;
       display:flex;
       justify-content: space-between;
+      text-align: center;
+      justify-content: center;
     }
 
     .centrado {
