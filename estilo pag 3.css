@@ -262,6 +262,31 @@
         align-items: center;
       }
   
+      .formulariodeventos {
+      text-align: left;
+      background-color: #000000;
+      margin: 10%;
+      padding: 4%;
+      }
+
+      .formulariodeventos h4 {
+        color: #f0f0f0; 
+        text-align: center;
+      }
+      .formenlace {
+        text-decoration: none;
+        color: #c970be;
+        text-align: center;
+        animation: fadeIn 2s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
                                   /*Seccion Noticias*/
   .title3B {
     font-family: "Cinzel", serif;
@@ -522,5 +547,5 @@ button a {
       font-family: "Playwrite BE WAL", cursive;
       font-optical-sizing: auto;
       font-style: normal;
-      color: #5f33be;
+      color: #3a3449;
     }
