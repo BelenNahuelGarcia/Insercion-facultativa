@@ -284,11 +284,12 @@ color: #000000;
   
   .parrafo1 {
   color: rgb(0, 0, 0);
-  text-align: left justify;
-  font-size: 20px; /* Ajusta el tamaño según tus preferencias */
   text-align: justify;
+  font-size: 20px; /* Ajusta el tamaño según tus preferencias */
   width: 100%; /* Ajusta el ancho según sea necesario */
-
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
   }
   
   .parrafo2 {
@@ -521,5 +522,5 @@ button a {
       font-family: "Playwrite BE WAL", cursive;
       font-optical-sizing: auto;
       font-style: normal;
-      color: #667abe;
+      color: #5f33be;
     }
