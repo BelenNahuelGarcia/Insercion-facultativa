@@ -137,3 +137,8 @@ h6 {
     display:flex;
     justify-content:center;
   }
+
+  .bootcolor {
+    background-color: #667ABE;
+    color:#667ABE;
+  }
