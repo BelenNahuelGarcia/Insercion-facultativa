@@ -1,229 +1,41 @@
 /*Estilo de la página 2-Tips de estudio*/
+.titulogeneral1 {
+  font-family: "Cinzel", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  color: #1F244A;
+  display:flex;
+  justify-content:center;
+}
 
 body{
   display:flex;
   justify-content:center;
   flex-direction:column;
-  font-family: Helvetica;
-  color:rgb(20, 27, 92);
   background-image: url("imagenes3/fondogeneral.jpg");
-  }
-
-  .fondogeneral {
-   background-color: rgb(179, 132, 235);
 }
 
-
-h1 {
-  display:flex;
-  justify-content:center;
+ul {       /* LINEA MENU ESTETICA*/
+  list-style-type: none;
+  margin: 15px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgb(216, 123, 123);
 }
 
-.introbjetivo p{
-  color: rgb(196, 196, 196);
- }
-
-
-.tarjetitas {
-    display:flex;
-    flex-direction:row;
-    width: 900px;
-    border: 5px solid rgb(9, 8, 56);
-    padding: 50px;
-    margin: 10px;
-}
-
-.tarjetitas a {
-  text-decoration: none;
-}
-
-/*animacion pagina 2*/
 .parrafo-introductorio h2 {
   font-weight: 400;
   font-family: "Playwrite BE WAL", cursive;
   font-optical-sizing: auto;
   font-style: normal;
-  color: black;
+  color: #667abe;
 }
 
-.card2A {
-  background-color: #F9AFAF;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  align-items: center;
-  margin: 500px;
-  width: 333px;  
-  height:500px;
-}
-
-.card2A:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.card2A img {
-  width: 100%;
-  height: 200px;
-  object-fit: contain;
-}
-
-.card2A h2 {
-  margin: 10px 0;
-  color: #191616;
-  text-align: justify;
-}
-.card2A p {
-  margin-bottom: 20px;
-  color: rgba(39, 46, 52, 0.845);
-  align-items: center;
-}
-
-
-/*tarjjeta 2*/
-.card2B {
-  background-color: #667ABE;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  align-items: center;
-  margin: 500px;
-  width: 333px;
-  height:500px;
-
-  
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
-}
-
-.card2B:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.card2B img {
-  width: 100%;
-  height: 200px;
-  object-fit: contain;
-}
-
-.card2B h2 {
-  margin: 10px 0;
-  text-align: justify;
-}
-.card2B p {
-  margin-bottom: 10px;
-  color: rgba(255, 255, 255, 0.658);
-  align-items: center;
-}
-
-/*tarjeta 3*/
-.card2C {
-  background-color: #ECE4DB;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  align-items: center;
-  width: 333px;
-  height:500px;
-}
-
-.card2C:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.card2C img {
-  width: 100%;
-  height: 200px;
-  object-fit: contain;
-}
-
-.card2C h2 {
-  margin: 10px 0;
-  color: #CD4D42;
-  text-align: justify;
-}
-.card2C p {
-  margin-bottom: 10px;
-  color: #ba423791;
-  align-items: center;
-}
-
-
-
-/*tarjeta 4*/
-.card2D:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.card2D img {
-  width: 100%;
-  height: 200px;
-  object-fit: contain;
-}
-
-.card2D h2 {
-  margin: 10px 0;
-  color: #F2E982;
-  text-align: justify;
-}
-.card2D p {
-  margin-bottom: 10px;
-  color: #ffea09ee;
-  align-items: center;
-}
-
-.button {
-  background-color: #ffffff9b;
-  color: #191616;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-}
-/*fin*/
-
-                                                        
-.calistoga-regular{
-  font-family: "Calistoga", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.headerpag3 h1 {
-  font-family: "Calistoga", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.title3A h1 {
-    font-family: "Calistoga", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-ul {
-  list-style-type: none;
-  margin: 15px;
-  padding: 10px;
-  overflow: hidden;
-}
-
-li {
+li {     /* LINEA BOTON*/
   float: left;
 }
 
-li a {
+li a {   /* LINEA DE MENU */
   display: block;
   color: white;
   text-align: center;
@@ -231,279 +43,180 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color:  rgb(204, 110, 110);
+li a:hover {  /* FONDO BOTON*/
+background-color:  rgb(204, 110, 110);
 }
 
-#barra {
-  background-color: rgb(216, 123, 123);
+.columnas {
+display: grid;
+grid-template-columns: 3fr;
+gap: 20px;
+display: inline-block;
 }
 
-    /*animacion pagina 2*/
-    .parrafo-introductorio h2 {
-      font-weight: 400;
-      font-family: "Playwrite BE WAL", cursive;
-      font-optical-sizing: auto;
-      font-style: normal;
-      color: #667abe;
-    }
-    
-    .card2A {
-      background-color: #F9AFAF;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-      overflow: hidden;
-      transition: transform 0.3s ease-in-out;
-      align-items: center;
-    }
-    
-    .card2A:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-    }
-    
-    .card2A img {
-      width: 100%;
-      height: 200px;
-      object-fit: contain;
-    }
-    
-    .card2A h2 {
-      margin: 10px 0;
-      color: #191616;
-      text-align: justify;
-    }
-    .card2A p {
-      margin-bottom: 20px;
-      color: rgba(39, 46, 52, 0.845);
-      align-items: center;
-    }
-    
-    .buttonT2 {
-      background-color: #F9AFAF;
-      color: #F9AFAF;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    
-    /*tarjjeta 2*/
-    .card2B {
-      background-color: #667ABE;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-      overflow: hidden;
-      transition: transform 0.3s ease-in-out;
-      align-items: center;
-    }
-    
-    .card2B:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-    }
-    
-    .card2B img {
-      width: 100%;
-      height: 200px;
-      object-fit: contain;
-    }
-    
-    .card2B h2 {
-      margin: 10px 0;
-      text-align: justify;
-    }
-    .card2B p {
-      margin-bottom: 10px;
-      color: rgba(255, 255, 255, 0.658);
-      align-items: center;
-    }
-    
-    .buttonT2 {
-      background-color: #667ABE;
-      color: #191616;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    /*tarjeta 3*/
-    .card2C {
-      background-color: #ECE4DB;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-      overflow: hidden;
-      transition: transform 0.3s ease-in-out;
-      align-items: center;
-    }
-    
-    .card2C:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-    }
-    
-    .card2C img {
-      width: 100%;
-      height: 200px;
-      object-fit: contain;
-    }
-    
-    .card2C h2 {
-      margin: 10px 0;
-      color: #CD4D42;
-      text-align: justify;
-    }
-    
-    .card2C p {
-      margin-bottom: 10px;
-      color: #ba423791;
-      align-items: center;
-    }
-    
-    .buttonT3 {
-      background-color: #ECE4DB;
-      color: #191616;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    
-    /*tarjeta 4*/
-    .card2D {
-      background-color: #1F244A;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-      overflow: hidden;
-      transition: transform 0.3s ease-in-out;
-      width: 999px;
-      height: 250px;
-      align-items: center;
-    }
-    
-    .card2D:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-    }
-    
-    .card2D img {
-      width: 100%;
-      height: 200px;
-      object-fit: contain;
-    }
-    
-    .card2D h2 {
-      margin: 10px 0;
-      color: #F2E982;
-      text-align: justify;
-    }
-    .card2D p {
-      margin-bottom: 10px;
-      color: #ffea09ee;
-      align-items: center;
-    }
-    
-    .buttonT4 {
-      background-color: #ffffff9b;
-      color: #191616;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    /*paneles*/
-
-    .panel{
-      position: center;
-      top:0;
-      left:0;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      height:100%;
-      width: 100%;
-      transition: transform 300ms;
-      z-index:-1;
-   }
-   .panel div{ 
-     display:flex;
-     flex-direction:column;
-     justify-content: center;
-     align-items: center;
-     background: beige;
-     width: 400px;
-     height:870px;
-     z-index:1000;
-   }
-   .panel[data-on='on'] 
-   { transform: scale(1);}
-   
-   .panel[data-on='off']
-   { transform: scale(0);}
-
-   /*lista card3*/
-   ol {
-    background: #ff9999;
-    padding: 20px;}
-
-   ol li {
-    background: #ffe5e5;
-    color: rgb(138, 4, 4);
-    padding: 5px;
-    margin-left: 35px;}
-
-    /*fin*/
-
-    
-
-    #grid {
-      display:grid;
-      grid-template-columns: 33% 33% 33%;
-      grid-template-rows: 20% 0% 0%;
-      justify-items: center;
-      background-color:white;
-      align-items:center;
-      align-content:center;
-    }
-
-    ul#grid {
-      height:500px;
-      width:1100px;
-    }
+.card2A {
+background-color: #F9AFAF;
+border-radius: 10px;
+transition: transform 0.3s ease-in-out;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+display: inline-block;
+}
+.card2A:hover {     /* FLOTANTE card 2A */
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card2A img { /*imagen CARD 2A*/
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+} 
+.card2A h2 {  /*TEXTO DESCRIPCION CARD 2A*/
+  margin: 10px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.card2A p { /*TEXTO PRINCIPAL CARD 2A*/
+  margin-bottom: 20px;
+  color: rgba(39, 46, 52, 0.845);
+  text-align: center;
+}
+/*tarjjeta 2*/
+.card2B {
+  background-color: #667ABE;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  display: inline-block;
   
-    
-    .columnas {
-      padding: 15px;
-      -webkit-column-count: 3;
-      -moz-column-count: 3;
-      column-count: 3;
-      -webkit-column-gap: 40px;
-      -moz-column-gap: 100px;
-      column-gap: 40px;
-      display:flex;
-      justify-content: space-between;
-      text-align: center;
-      justify-content: center;
-    }
+  
+}
+.card2B:hover {       /* FLOTANTE card 2B */
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card2B img { /*imagen CARD 2B*/
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.card2B h2 {  /*TEXTO DESCRIPCION CARD 2B*/
+  margin: 10px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.card2B p {  /*TEXTO PRINCIPAL CARD 2B*/
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.658);
+  text-align: center;
+}
+/*tarjeta 3*/
+.card2C {
+  background-color: #ECE4DB;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 20px;
+  display: inline-block;
+}
 
-    .centrado {
-      justify-content:center;
-    }
+.card2C:hover {     /* FLOTANTE card 2C */
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card2C img {   /*IMAGEN CARD 2C*/
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.card2C h2 {     /*TEXTO DESCRIPCION CARD 2C*/
+  margin: 10px 0;
+  color: #CD4D42;
+  text-align:center;
+  font-family: Arial, sans-serif;
+}
+.card2C p {   /*TEXTO PRINCIPAL CARD 2C*/
+  margin-bottom: 20px;
+  color: #ba423791;
+  text-align: center;
+}
+/*tarjeta 4*/
+.card2D {
+  background-color: #1F244A;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  grid-template-columns:auto
 
-    .titulogeneral1 {
-      font-family: "Cinzel", system-ui;
-      font-weight: 800;
-      font-style: normal;
-      }
-    
-      footer {
-        background-color: #f28eb2; /* Ajusta el tono de rosa */
-        color: #ffff;
-        text-align: center;
-        padding: 20px;
-      }
+}
+.card2D:hover {     /* FLOTANTE card 2D */
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card2D img {     /*IMAGEN CARD 2D*/
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.card2D h2 {    /*TEXTO DESCRIPCION CARD 2D*/
+  margin: 10px 0;
+  color: #F2E982;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.card2D p {      /*TEXTO PRINCIPAL CARD 2C*/
+  margin-bottom: 20px;
+  color: #ffea09ee;
+  text-align: center;
+}
+
+.button {
+  background-color: #ffffff9b;
+  color: #191616;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*fin*/
+
+.panel{
+  position: absolute;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width: 100%;
+  transition: transform 300ms;
+  z-index:-1;
+}
+
+.panel div{ 
+ display:flex;
+ flex-direction:column;
+ justify-content: center;
+ align-items: center;
+ background:  #F9AFAF;
+ width: 400px;
+ height:600px;
+ z-index:1000;
+}
+
+.panel[data-on='on'] 
+{transform: scale(1);}
+
+.panel[data-on='off']
+{transform: scale(0);}
+
+footer {
+ background-color: #f28eb2; /* Ajusta el tono de rosa */
+ color: #ffff;
+ text-align: center;
+ padding: 20px;
+}

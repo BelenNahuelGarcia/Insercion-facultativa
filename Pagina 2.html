@@ -17,7 +17,8 @@
       <link rel="stylesheet" href="estilogeneral.css">
       <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&display=swap" rel="stylesheet">
    </head>
-   <body class="fondoazul">
+
+   <body>
       <div><!--Introducción de la página-->
          <h1 class="titulogeneral1"> Tips de estudio </h1>
          <ul id="barra">
@@ -31,94 +32,120 @@
          <div class="parrafo-introductorio">
             <h2> Conocemos que a la hora de estudiar no sabemos en como comenzar,
                es por eso que a continuacion no solo te vamos a dar tecnicas de estudio y consejos,
-                 sino ademas podemos darte frases motivadoras y consejos para afrontar cualquier tipo de examen. 
-              </h2>
-           </div>
+               sino ademas podemos darte frases motivadoras y consejos para afrontar cualquier tipo de examen. 
+            </h2>
+         </div>
       </div>
-      <div class="centrado"><!--Contenido de la página-->
-         <div><!--Tarjetitas horizontales-->
-            <div class="columnas">
-            <ul id="grid">
-               <li> <!--Card 2A vertical-->
-                  <div class="card2A">  
-                     <img src="imagenes2/card2A.jpg" alt="Imagen de tecnicas de estudio">
-                     <h2>Tecnicas de estudio</h2>
-                     <br>
-                     <p>Descripcion: aca encontraras desde como crear un buen resumen, tecnicas actuales y mas.</p>
-                     <a href="#" class="button" onclick="document.getElementById('aviso').setAttribute('data-on','on')">Leer mas</a>
-                     <div  class="panel" id="aviso" data-on="off" onclick="this.setAttribute('data-on','off')">
-                        <div>
-                           Método 3, 2, 1
-                           <p> Un reloj de 3 minutos para activar tus emociones, un reloj de 2 minutos para relajar tu mente y un minuto para prepararte mentalmente. Este método te será de gran ayuda para tener una gran preparación mental para empezar a estudia.</p>
-                           Active recall 
-                           <p>Estudiar y entender el texto una vez, y después hacerte preguntas y responderlas por tu cuenta, para evaluar qué tanto recuerdas.</p>
-                           Técnica de los 5 minutos
-                           <p>Una orden pequeña y no tan difícil para que entres en ritmo, con esta técnica le dices a tu cerebro solo 5 minutos en donde vas a tener un avance, un progreso en donde vas a querer continuar porque lo más difícil es empezar.</p>
-                           Técnica de enseñanza
-                           <p>Esta es la mejor técnica para la comprensión de un tema complejo porque compruebas tu conocimiento al sintetizar el tema y explicarlo de forma facil a una persona. No siempre se puede utilizar debido al volumen de información pero es recomendable para temas complicados.</p>
-                           Método Leitner
-                           <p>Crear flashcards con conceptos clave que entiendas, enfrente la pregunta y atrás la respuesta. Luego crea 3 cajas, la primera la vamos a llamar la caja diaria, la segunda va a ser la caja de cada 3 días y la tercera va a ser la caja semanal.
-                              Revisalas mínimo 1 hora al día, dos semanas antes del examen la siguiente manera: Las tarjetas de la primera caja diariamente, cuando se domine alguna tarjeta pasan a la segunda caja en donde su revisión va a ser cada tres días, si te equivocas vuelve a la primera caja y si no para a la tercera caja en donde se repasa semanalmente, si te equivocas vuelve a la segunda caja y sino pasa a la sección de tarjetas dominas.</p>
-                        </div>	
-                     </div> 
-                  </div>
-   
-               </li>
-               <li> <!--Card 2B vertical-->
-                  <div class="card2B">
-                  <img src="imagenes2/card2B.jpg" alt="Imagen de preparacion de examenes">
-                  <h2>Preparacion de examenes</h2>
-                  <br>
-                  <p>Descripcion: sabemos que a la hora de un examen el estres, la ansiedad estan presentes, es por eso que te aconsejamos lo siguiente.</p>
-                  <a href="#" class="button" onclick="document.getElementById('aviso').setAttribute('data-on','on')">Leer mas </a>
-                  <div  class="panel" id="aviso" data-on="off" onclick="this.setAttribute('data-on','off')">
+
+      
+      <div class="columnas"> <!--CENTREADO DE LAS 3 PRIMERAS COLUMNAS-->
+         <li> <!--Card 2A FLOTANTE VERTICAL-->
+            <div class="card2A">  
+               <img src="imagenes2/card2A.jpg" alt="Imagen de tecnicas de estudio">
+               <h2>Tecnicas de estudio</h2>
+               <br>
+               <p>Aca encontraras desde como crear un buen resumen,</p>
+               <p>tecnicas actuales y mas.</p>
+               <a href="#" class="button" onclick="document.getElementById('aviso').setAttribute('data-on','on')">Leer mas</a>
+               <div  class="panel" id="aviso" data-on="off" onclick="this.setAttribute('data-on','off')">
+                  <div>
+                     Método 3, 2, 1
+                     <p> Un reloj de 3 minutos para activar tus emociones, un reloj de 2 minutos para relajar tu mente y un minuto para prepararte mentalmente. Este método te será de gran ayuda para tener una gran preparación mental para empezar a estudia.</p>
+                     Active recall 
+                     <p>Estudiar y entender el texto una vez, y después hacerte preguntas y responderlas por tu cuenta, para evaluar qué tanto recuerdas.</p>
+                     Técnica de los 5 minutos
+                     <p>Una orden pequeña y no tan difícil para que entres en ritmo, con esta técnica le dices a tu cerebro solo 5 minutos en donde vas a tener un avance, un progreso en donde vas a querer continuar porque lo más difícil es empezar.</p>
+                     Técnica de enseñanza
+                     <p>Esta es la mejor técnica para la comprensión de un tema complejo porque compruebas tu conocimiento al sintetizar el tema y explicarlo de forma facil a una persona. No siempre se puede utilizar debido al volumen de información pero es recomendable para temas complicados.</p>
+                     Método Leitner
+                     <p>Crear flashcards con conceptos clave que entiendas, enfrente la pregunta y atrás la respuesta. Luego crea 3 cajas, la primera la vamos a llamar la caja diaria, la segunda va a ser la caja de cada 3 días y la tercera va a ser la caja semanal.
+                     Revisalas mínimo 1 hora al día, dos semanas antes del examen la siguiente manera: Las tarjetas de la primera caja diariamente, cuando se domine alguna tarjeta pasan a la segunda caja en donde su revisión va a ser cada tres días, si te equivocas vuelve a la primera caja y si no para a la tercera caja en donde se repasa semanalmente, si te equivocas vuelve a la segunda caja y sino pasa a la sección de tarjetas dominas.</p>
+                  </div>	
+               </div> 
+            </div>
+         </li>
+         
+         <li> <!--Card 2B FLOTANTE VERTICAL-->
+            <div class="card2B">
+               <img src="imagenes2/card2B.jpg" alt="Imagen de preparacion de examenes">
+               <h2>Preparacion de examenes</h2>
+               <br>
+               <p>Sabemos que a la hora de un examen el estres</p>
+               <p>y la ansiedad estan presentes.</p>
+               <a href="#" class="button" onclick="document.getElementById('aviso').setAttribute('data-on','on')">Leer mas </a>
+               <div  class="panel" id="aviso" data-on="off" onclick="this.setAttribute('data-on','off')">
                   <img src="imagenes2/card_preparacion_a_examenes.jpg" alt="imagen para card 2">   
-                  </div>
-                  </div>
-               </li>
-               <li> <!--Card 2C vertical-->
-                  <div class="card2C">
-                     <img src="imagenes2/card2C.jpg" alt="Imagen de tips de estudio">
-                     <h2>Tips de estudio</h2>
-                     <br>
-                     <p>Para evitar  el sofocamiento y el estrés de estudiar.</p>
-                     <a href="#" class="button" onclick="document.getElementById('aviso').setAttribute('data-on','on')">Leer mas</a>
-                     <div  class="panel" id="aviso" data-on="off" onclick="this.setAttribute('data-on','off')">
-                     <div>
-                     Ahorradores de tiempo, que son acciones que realizas en dias especificos de la semana que te ahorrarán tiempo en toda la semana para que no tengas que hacer lo mismo todos los días:
-                     <p>
-                        <ol>
-                           <li>Coffee</li>
-                           <li>Tea</li>
-                           <li>Coca Cola</li>
-                        </ol>
-                     </p>
-                     </div>
-                     </div>
-                  </div>
-               </li>
-            </ul>
-            </div>
-            </div>
-            <div><!--Tarjetita vertical-->
-               <div class="card2D"><!--Card 2D horizontal-->
-                <img src="imagenes2/card2D.jpg" alt="Imagen de frases motivadoras">
-                  <h2>Apps y canales de ayuda</h2>
-                  <br>
-                  <p>Estas apps te ayudaran en tu camino educativo y estos canales te motivaran y explicaran, para su ayuda y comprencion</p>
-                  <a href="#" class="button">Leer mas</a>
                </div>
             </div>
-          
+         </li>
+
+         <li> <!--Card 2C FLOTANTE VERTICAL-->
+            <div class="card2C">
+               <img src="imagenes2/card2C.jpg" alt="Imagen de tips de estudio">
+               <h2>Tips de estudio</h2>
+               <br>
+               <p>Para evitar  el sofocamiento y el estrés de estudiar.</p>
+               <a href="#" class="button" onclick="document.getElementById('aviso').setAttribute('data-on','on')">Leer mas</a>
+               <div  class="panel" id="aviso" data-on="off" onclick="this.setAttribute('data-on','off')">
+                  <div>
+                  Ahorradores de tiempo, que son acciones que realizas en dias especificos de la semana que te ahorrarán tiempo en toda la semana para que no tengas que hacer lo mismo todos los días:
+                     <p>
+                        <ol>
+                           <li>Guías de estudio
+                           Guías de estudio todos los días en clase, para que al terminar la clase tengas tu apunte y tu gia de preguntas</li>
+                           <li>Tiempos muertos 
+                           utilizar los tiempos muertos de cada dia para adelantar actividades académicas</li>
+                           <li>Comidas preparadas 
+                           Utiliza un dia a la semana para preparar por adelantado todos tus alimentos </li>
+                           <li>Descansos frecuentes
+                           Para ahorrar energía, puedes darte descansos frecuentes osea pequeños momentos a lo largo del día para relajarte y también puedes darte una tarde a la semana completa para desintoxicarte</li>
+                           <li>Ejercicio físico 
+                           Te dará mas energía para tus actividades</li>
+                           <li>Repasos semanales
+                           Asignar un dia a la semana para repasar todo lo que aprendiste en la semana 
+                           estudio matematica</li>
+                        </ol>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </div>     
+   
+      <div><!--Tarjetita HORIZONTAL-->
+         <div class="card2D"><!--Card 2D horizontal-->
+            <img src="imagenes2/card2D.jpg" alt="Imagen de frases motivadoras">
+            <h2>Apps y canales de ayuda</h2>
+            <br>
+            <p>Estas apps te ayudaran en tu camino educativo y estos canales te motivaran y explicaran, para su ayuda y comprencion</p>
+            <a href="#" class="button" onclick="document.getElementById('aviso').setAttribute('data-on','on')">Leer mas</a>
+            <div  class="panel" id="aviso" data-on="off" onclick="this.setAttribute('data-on','off')">
+               <div>
+                  <ol>
+                     <li>Khan Academy</li>
+                     <li>Geogebra</li>
+                     <li>Wolframalpha</li>
+                     <li>Photomath</li>
+                     <p>mejores canales de youtube para matemáticas</p>
+                     <li>derivando -------- motivacional</li>
+                     <li>mates make -------- explicativo y didáctico</li>
+                     <li>el traductor de ingeniería -------- explicación gráfica y sencillo</li>
+                  </ol>
+               </div>  
+            </div>      
+         </div>
       </div>
+
+
       <div><!--Footer-->
-         <br><br><br>
-         <footer>
-            <p>
-               Página creada por Florencia Gira, Lucía Apicella y Lisette Miranda.<br>
-               Nuestros agradecimientos a Chicas En Tecnología
-            </p>
-         </footer>
-      </div> 
+      <br><br><br>
+      <footer>
+      <p>
+        Página creada por Florencia Gira, Lucía Apicella y Lisette Miranda.<br>
+        Nuestros agradecimientos a Chicas En Tecnología
+      </p>
+      </footer>
+       
+
     </body>
 </html>
